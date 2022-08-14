@@ -1,0 +1,46 @@
+.Nav {
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #34495e;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    font-size: 15px;
+    float: left;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+nav a {
+    font-size: 15px;
+    float: right;
+    margin: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #1abc9c;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+

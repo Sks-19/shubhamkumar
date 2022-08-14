@@ -1,0 +1,41 @@
+.card_project{
+    width: 90%;
+    height: 300px;
+    margin-top: 5%;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .content_project {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+    justify-content: left;
+  }
+  
+  .content_project h2 {
+    color: #444;
+    font-size: 1.6rem;
+    font-weight: bolder;
+  }
+  
+  .content_project h2 span {
+    font-size: 0.7em;
+    color: #03a9f4;
+    font-weight: bold;
+  }
+
+  .content_project .detail {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .content_project .detail h5 {
+    color: #444;
+    width: 70%;
+    font-size: 1.0em;
+    font-weight: bolder;
+  }
