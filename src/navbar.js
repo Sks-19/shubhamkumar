@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import { FaFacebookSquare, 
-    FaInstagramSquare, 
-    FaGitSquare } 
-    from 'react-icons/fa';
 import { GiHamburgerMenu } from "react-icons/gi";
 import './navbar.css';
 

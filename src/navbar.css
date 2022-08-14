@@ -44,7 +44,7 @@ li {
   /* ----------- Grid part ends ----------------- */
   
   .logo h2 {
-    margin-left: -20%;
+    margin-left: 0%;
     font-size: 1.5rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -96,7 +96,7 @@ li {
   /* responsive css style  */
   @media (max-width: 1080px) {
     .main-nav {
-      height: 8rem;
+      height: 4rem;
       grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
     }
   
@@ -110,7 +110,7 @@ li {
   /* responsive css style  */
   @media (max-width: 998px) {
     .main-nav {
-      height: 7rem;
+      height: 4rem;
       grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
     }
   
@@ -120,7 +120,7 @@ li {
   
     .logo,
     .social-media ul {
-      height: 7rem;
+      height: 4rem;
     }
   
     .mobile-menu-link {
@@ -182,17 +182,17 @@ li {
   
   @media (max-width: 798px) {
     .main-nav {
-      height: 6rem;
+      height: 4rem;
       grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
     }
   
     .logo,
     .social-media ul {
-      height: 6rem;
+      height: 4rem;
     }
   
     .social-media {
-      height: 6rem;
+      height: 4rem;
       display: flex;
       justify-self: end;
       align-items: center;
@@ -206,13 +206,13 @@ li {
   
   @media (max-width: 520px) {
     .main-nav {
-      height: 6rem;
+      height: 4rem;
       grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
     }
   
     .logo,
     .social-media ul {
-      height: 6rem;
+      height: 4rem;
     }
   
     .logo h2 {
@@ -220,7 +220,7 @@ li {
     }
   
     .social-media {
-      height: 6rem;
+      height: 4rem;
       display: flex;
       justify-self: end;
       align-items: center;

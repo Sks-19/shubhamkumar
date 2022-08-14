@@ -1,7 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-
-
+import { BsFacebook,
+BsTwitter,
+BsInstagram,
+BsLinkedin,
+BsGithub } 
+    from 'react-icons/bs';
 function Footer() {
     return (
         <>
@@ -13,35 +17,35 @@ function Footer() {
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
-            ><i class="fab fa-facebook-f">FB</i></a>
+            ><i class="fab fa-facebook-f"><BsFacebook /></i></a>
 
             <a
                 class="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
-            ><i class="fab fa-twitter"></i>Twitter</a>
+            ><i class="fab fa-twitter"></i><BsTwitter /></a>
 
             <a
                 class="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
-                ><i class="fab fa-instagram"></i>Insta</a>
+                ><i class="fab fa-instagram"></i><BsInstagram /></a>
 
             <a
                 class="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
-                ><i class="fab fa-linkedin"></i>Linkedin</a>
+                ><i class="fab fa-linkedin"></i><BsLinkedin /></a>
       
             <a
                 class="btn btn-link btn-floating btn-lg text-dark m-1"
                 href="#!"
                 role="button"
                 data-mdb-ripple-color="dark"
-                ><i class="fab fa-github"></i>Github</a>
+                ><i class="fab fa-github"></i><BsGithub /></a>
         </section>
         </div>
   
