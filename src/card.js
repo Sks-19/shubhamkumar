@@ -26,10 +26,10 @@ function Card() {
             </div>
             <div className='icon'>
             <ul className="social">
-              <li><a href="/" ><FaFacebookSquare className='facebook'/></a></li>
-              <li><a href="/" ><FaGitSquare className='facebook'/></a></li>
-              <li><a href="/" ><FaLinkedin className='facebook'/></a></li>
-              <li><a href="/" ><FaInstagramSquare className='instagram'/></a></li>
+              <li><a href="https://m.facebook.com/100006499862197/" ><FaFacebookSquare className='facebook'/></a></li>
+              <li><a href="https://github.com/Sks-19" ><FaGitSquare className='facebook'/></a></li>
+              <li><a href="https://www.linkedin.com/in/shubham-kumar19/" ><FaLinkedin className='facebook'/></a></li>
+              <li><a href="https://www.instagram.com/_.shubham.kr.sharma._/" ><FaInstagramSquare className='instagram'/></a></li>
             </ul>
             </div>
           </div>

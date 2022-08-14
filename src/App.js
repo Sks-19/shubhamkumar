@@ -9,9 +9,8 @@ import ExperienceData from './experience_data';
 import Project from './project';
 import Skill from './skill';
 import ProjectData from './ProjectData';
-import Contact_me from './Contact';
+import ContactMe from './Contact';
 import Navbar from './navbar';
-// import Profile from './Profile';
 
 function App() {
   return (
@@ -49,7 +48,7 @@ function App() {
           <h4 style= {{fontWeight: "bold", marginTop: "5%"}}>My Skills :</h4>
 
           <Skill />
-          <Contact_me />
+          <ContactMe />
 
         </div>
         <Footer />
