@@ -47,6 +47,11 @@ function Footer() {
                 data-mdb-ripple-color="dark"
                 ><i class="fab fa-github"></i><BsGithub /></a>
         </section>
+        
+        <div className='text-center p-4'>
+            © 2022 Copyright : 
+            <h6 className='d-inline'> Shubham Kumar</h6>
+        </div>
         </div>
   
     </footer>

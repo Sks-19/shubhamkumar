@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -8,38 +9,38 @@ function Navbar() {
 
     const [showMediaIcons, setShowMediaIcons] = useState(false);
     return (
-        <>  
+        <>
             <nav className='main-nav'>
 
                 <div className='logo'>
-                    <h2>
+                    <h3>
                         <span>S</span>hubham
                         <span>K</span>umar
-                    </h2>
+                    </h3>
                 </div>
 
                 <div className={
                     showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}
-                    >
+                >
                     <ul>
                         <li>
-                            <a href='#'>Home</a>
+                            <NavLink className="NavLink" to='/'>About</NavLink>
                         </li>
                         <li>
-                            <a href='#'>About</a>
+                            <NavLink className="NavLink" to='/resume'>Resume</NavLink>
                         </li>
                         <li>
-                            <a href='#'>Resume</a>
+                            <NavLink className="NavLink" to='/work'>Project</NavLink>
                         </li>
                         <li>
-                            <a href='#'>Project</a>
+                            <NavLink className="NavLink" to='/contactme'>Contact Me</NavLink>
                         </li>
                     </ul>
                 </div>
 
                 <div className='social-media'>
                     <div className='hamburger-menu'>
-                        <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                        <a href="/" onMouseOver={() => setShowMediaIcons(!showMediaIcons)}>
                             <GiHamburgerMenu />
                         </a>
                     </div>

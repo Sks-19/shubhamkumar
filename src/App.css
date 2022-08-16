@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(#03a9f4, #03a9f4 7%, #fff 17%, #fff 100%);
+  background: linear-gradient(#03a9f4, #03a9f4 35%, #fff 55%, #fff 100%);
 }
 
 .Resume {

@@ -20,9 +20,9 @@ function Card() {
               <img className="img-fluid" src={image} alt="Shubham Kumar" />
             </div>
             <div className="team-content">
-              <h2 className="name">Shubham Kumar</h2>
+              <h2 className="name"><span>S</span>hubham <span>K</span>umar</h2>
               <hr className='Hr'/>
-              <h4 className="title">WEB DEVELOPER</h4>
+              <h4 className="title"><span>W</span>EB <span>D</span>EVELOPER</h4>
             </div>
             <div className='icon'>
             <ul className="social">
