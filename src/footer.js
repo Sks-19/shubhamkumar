@@ -19,39 +19,39 @@ function Footer() {
                             href="https://m.facebook.com/100006499862197/"
                             role="button"
                             data-mdb-ripple-color="dark"
-                        ><i class="fab fa-facebook-f"><BsFacebook /></i></a>
+                        ><BsFacebook /></a>
 
                         <a
                             class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://twitter.com/beingsk45"
                             role="button"
                             data-mdb-ripple-color="dark"
-                        ><i class="fab fa-twitter"></i><BsTwitter /></a>
+                        ><BsTwitter /></a>
 
                         <a
                             class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://www.instagram.com/_.shubham.kr.sharma._/"
                             role="button"
                             data-mdb-ripple-color="dark"
-                        ><i class="fab fa-instagram"></i><BsInstagram /></a>
+                        ><BsInstagram /></a>
 
                         <a
                             class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://www.linkedin.com/in/shubham-kumar19/"
                             role="button"
                             data-mdb-ripple-color="dark"
-                        ><i class="fab fa-linkedin"></i><BsLinkedin /></a>
+                        ><BsLinkedin /></a>
 
                         <a
                             class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://github.com/Sks-19"
                             role="button"
                             data-mdb-ripple-color="dark"
-                        ><i class="fab fa-github"></i><BsGithub /></a>
+                        ><BsGithub /></a>
                     </section>
 
                     <div className='text-center p-4'>
-                        © 2022 Copyright :
+                        © 2022 by
                         <h6 className='d-inline'> Shubham Kumar</h6>
                     </div>
                 </div>
