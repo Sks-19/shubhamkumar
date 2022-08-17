@@ -14,16 +14,13 @@ function App() {
     <>
       <Navbar />
 
-      <div className="container">
+      <Routes>
+        <Route path="/" element={<Card />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/contactme" element={<ContactMe />} />
+      </Routes>
 
-        <Routes>
-          <Route path="/" element={<Card />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/contactme" element={<ContactMe />} />
-        </Routes>
-
-      </div>
       <Footer />
     </>
   );

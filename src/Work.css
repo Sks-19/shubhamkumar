@@ -1,0 +1,14 @@
+.Project {
+    height: 100%;
+    width: 100%;
+    background-color: #FFDAB9;
+}
+
+.Project_title {
+    text-align: center;
+    padding: 5%;
+}
+
+.Project h4 {
+    margin-left: 5%;
+}

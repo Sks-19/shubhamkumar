@@ -1,0 +1,14 @@
+.Resume {
+    height: 100%;
+    width: 100%;
+    background-color: #FFDAB9;
+}
+
+.Resume h1 {
+    text-align: center;
+    padding: 5%;
+}
+
+.Resume h4 {
+    margin-left: 5%;
+}

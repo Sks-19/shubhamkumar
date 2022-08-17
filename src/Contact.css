@@ -1,9 +1,14 @@
+.Contact {
+    background-color: #FFDAB9;
+}
+
 .inp {
     margin-bottom: 4%;
 }
 
 .contact {
-    margin-top: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .button {
