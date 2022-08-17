@@ -136,7 +136,7 @@ Hr {
 
 .Hello {
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1.0;
 }
 
@@ -152,7 +152,7 @@ Hr {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 0% 0% 10% 30%;
-  border-radius: 25px;
+  margin: 0% 0% 10% 25%;
+  border-radius: 20px;
   width: 35%;
 }

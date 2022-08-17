@@ -3,7 +3,7 @@ const ExperienceData = [
         duration: "Jan, 2021 - Present",
         position: "Assistant System Engineer",
         company: "Tata Consultancy Services",
-        exp1: "I have been working with Teradata anb Snowflake platform and responsible for RCA & Data Patches. I have developed Interactive Dashboards to reduce repetitive and manual efforts. I have alos worked on Queries & Procedures optimization and improved performance that resulted in 5 % reeducation in total credits being charged for computation"
+        exp1: "I have been working with Teradata anb Snowflake platform and responsible for RCA & Data Patches. I have developed Interactive Dashboards to reduce repetitive and manual efforts. I have alos worked on Queries & Procedures optimization and improved performance."
     },
     {
         duration: "May, 2020 - Nov, 2020",

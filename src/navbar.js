@@ -24,7 +24,7 @@ function Navbar() {
                 >
                     <ul>
                         <li>
-                            <NavLink className="NavLink" to='/'>About</NavLink>
+                            <NavLink className="NavLink" to='/shubhamkumar'>About</NavLink>
                         </li>
                         <li>
                             <NavLink className="NavLink" to='/resume'>Resume</NavLink>
