@@ -15,35 +15,35 @@ function Footer() {
                 <div class="container pt-4">
                     <section>
                         <a
-                            class="btn btn-link btn-floating btn-lg text-dark m-1"
+                            class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://m.facebook.com/100006499862197/"
                             role="button"
                             data-mdb-ripple-color="dark"
                         ><i class="fab fa-facebook-f"><BsFacebook /></i></a>
 
                         <a
-                            class="btn btn-link btn-floating btn-lg text-dark m-1"
+                            class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://twitter.com/beingsk45"
                             role="button"
                             data-mdb-ripple-color="dark"
                         ><i class="fab fa-twitter"></i><BsTwitter /></a>
 
                         <a
-                            class="btn btn-link btn-floating btn-lg text-dark m-1"
+                            class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://www.instagram.com/_.shubham.kr.sharma._/"
                             role="button"
                             data-mdb-ripple-color="dark"
                         ><i class="fab fa-instagram"></i><BsInstagram /></a>
 
                         <a
-                            class="btn btn-link btn-floating btn-lg text-dark m-1"
+                            class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://www.linkedin.com/in/shubham-kumar19/"
                             role="button"
                             data-mdb-ripple-color="dark"
                         ><i class="fab fa-linkedin"></i><BsLinkedin /></a>
 
                         <a
-                            class="btn btn-link btn-floating btn-lg text-dark m-1"
+                            class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://github.com/Sks-19"
                             role="button"
                             data-mdb-ripple-color="dark"

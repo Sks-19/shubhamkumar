@@ -2,7 +2,7 @@
   width: 90%;
   height: 300px;
   margin: 5%;
-  background-color: #dcdcdc;
+  background-color: #000000;
   border-radius: 5px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
@@ -16,7 +16,7 @@
 }
 
 .content_project h2 {
-  color: #444;
+  color: #fff;
   font-size: 1.6rem;
   font-weight: bolder;
 }
@@ -34,7 +34,7 @@
 }
 
 .content_project .detail h5 {
-  color: #444;
+  color: #fff;
   width: 70%;
   font-size: 1.0em;
   font-weight: bolder;

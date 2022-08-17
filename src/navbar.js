@@ -40,7 +40,7 @@ function Navbar() {
 
                 <div className='social-media'>
                     <div className='hamburger-menu'>
-                        <a href="/" onMouseOver={() => setShowMediaIcons(!showMediaIcons)}>
+                        <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
                             <GiHamburgerMenu />
                         </a>
                     </div>
