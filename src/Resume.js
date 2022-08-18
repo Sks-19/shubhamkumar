@@ -22,6 +22,8 @@ const Resume = () => {
                             position={val.position}
                             company={val.company}
                             exp1={val.exp1}
+                            exp2={val.exp2}
+                            exp3={val.exp3}
                         />
                     );
                 })}

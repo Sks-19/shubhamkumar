@@ -28,18 +28,18 @@ function Card() {
             <h5>I am a Frontend Developer.</h5>
             <br />
             <p>
-              For the past 18 months, I am working with TCS which is one of the biggest IT company in the country, as a Data Analyst.
+              For the past 18 months, I am working with TCS which is one of the biggest IT company in the country.
               Where my day-to-day job is to maintain the flow of data to the downstream client.
               We are maintaining the data quality from different sources in the data warehouse.
               <br />
+              During my engineering, I developed love for web technology, since I love to create beautiful and performant products with a delightful user experience.
               <br />
-              During my engineering, I developed a love for web technology since I love to create beautiful and performant products with a delightful user experience.
-              During my last year of engineering I was working with a start-up Digital1x1 which was supposed to provide IT and marketing services to early-stage startups,
-              as a frontend developer where I was working on the company websites with other team members,
+              During last year of my engineering, I was working with a start-up Digital1x1, which was supposed to provide IT and marketing services to early-stage startups,
+              as a frontend developer I was working on the company websites with other team members,
               and provided services such as designing, developing web page-tool as per team requirements.
             </p>
             <a href='Shubham_Ku.pdf'
-              download="Sk_Resume.pdf"
+              download="shubham_kumar_cv.pdf"
               type="button"
               className='btn btn-secondary submit'>
               DOWNLOAD CV

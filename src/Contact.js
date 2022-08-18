@@ -27,7 +27,7 @@ const ContactMe = () => {
                 <div className='container-fluid Contact'>
                     <div class="row contact">
                         <div class="col-md-9 mb-md-0 mb-5">
-                            <h2 class="h1-responsive font-weight-bold text-left my-4">Get In Touch</h2>
+                            <h2 class="h1-responsive font-weight-bold text-left text-white my-4">Get In Touch</h2>
 
                             <form ref={form} onSubmit={sendEmail}>
                                 <div class="row">
@@ -71,15 +71,15 @@ const ContactMe = () => {
 
                         <div class="col-md-3 text-center">
                             <ul class="list-unstyled mb-0">
-                                <h2 class="h1-responsive font-weight-bold text-center my-4">My contact Details</h2>
+                                <h2 class="h1-responsive font-weight-bold text-center text-white my-4">My contact Details</h2>
                                 <li>
                                     <label style={{ color: "blue" }}>PHONE :</label>
-                                    <p>+91 9116 736 861</p>
+                                    <p style={{ color: "white" }}>+91 9116 736 861</p>
                                 </li>
 
                                 <li>
                                     <label style={{ color: "blue" }}>EMAIL :</label>
-                                    <p>shubhamsks19@gmail.com</p>
+                                    <p style={{ color: "white" }}>shubhamsks19@gmail.com</p>
                                 </li>
                             </ul>
                         </div>

@@ -13,6 +13,12 @@ function Experience(props) {
                         <li>
                             <h5>{props.exp1}</h5>
                         </li>
+                        <li>
+                            <h5>{props.exp2}</h5>
+                        </li>
+                        <li>
+                            <h5>{props.exp3}</h5>
+                        </li>
                     </ul>
                 </div>
             </div>
