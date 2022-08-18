@@ -1,41 +1,34 @@
-.cardex {
-  width: 90%;
-  height: 400px;
-  margin: 5%;
+.expCard {
   background-color: #000000;
+  margin: 5%;
   border-radius: 5px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
 
-.contentex {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 5%;
+.expContent {
+  position: relative;
+  padding: 5%;
   justify-content: left;
+
 }
 
-.contentex h2 {
+.expContent p {
+  color: chartreuse;
+}
+
+.expContent h2 {
   color: white;
-  width: 70%;
   font-size: 1.5rem;
   font-weight: bolder;
 }
 
-.contentex h2 span {
+.expContent h2 span {
   font-size: 0.7em;
   color: #03a9f4;
   font-weight: bold;
 }
 
-.contentex .detail {
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
-}
-
-.contentex .detail h5 {
-  width: 68%;
+.expContent h5 {
   color: white;
   font-size: 1.0em;
   font-weight: bolder;

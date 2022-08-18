@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Experience from "./experience";
 import ExperienceData from './experience_data';
+import Education from "./Education";
+import EducationData from "./Education_Data";
 import Skill from "./skill";
 import './Resume.css';
 
@@ -20,6 +22,20 @@ const Resume = () => {
                             position={val.position}
                             company={val.company}
                             exp1={val.exp1}
+                        />
+                    );
+                })}
+
+                <h4 style={{ fontWeight: "bold" }}>Education :</h4>
+
+                {EducationData.map((val) => {
+                    return (
+                        <Education
+                            duration={val.duration}
+                            universityName={val.universityName}
+                            degree={val.Degree}
+                            d1={val.d1}
+                            d2={val.d2}
                         />
                     );
                 })}

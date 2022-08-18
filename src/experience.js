@@ -5,17 +5,15 @@ import './experience.css';
 function Experience(props) {
     return (
         <>
-            <div className="cardex">
-                <div className="contentex">
-                    <div className='detail'>
-                        <p>{props.duration}</p>
-                        <h2>{props.position}<br /> <span>{props.company}</span></h2>
-                        <ul>
-                            <li>
-                                <h5>{props.exp1}</h5>
-                            </li>
-                        </ul>
-                    </div>
+            <div className="row expCard">
+                <div className="expContent">
+                    <p>{props.duration}</p>
+                    <h2>{props.position}<br /> <span>{props.company}</span></h2>
+                    <ul>
+                        <li>
+                            <h5>{props.exp1}</h5>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </>

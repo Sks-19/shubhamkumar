@@ -1,0 +1,35 @@
+.eduCard {
+    background-color: #000000;
+    margin: 5%;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.eduContent {
+    position: relative;
+    padding: 5%;
+    justify-content: left;
+
+}
+
+.eduContent p {
+    color: chartreuse;
+}
+
+.eduContent h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.eduContent h2 span {
+    font-size: 0.7em;
+    color: #03a9f4;
+    font-weight: bold;
+}
+
+.eduContent h5 {
+    color: white;
+    font-size: 1.0em;
+    font-weight: bolder;
+}

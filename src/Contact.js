@@ -73,11 +73,6 @@ const ContactMe = () => {
                             <ul class="list-unstyled mb-0">
                                 <h2 class="h1-responsive font-weight-bold text-center my-4">My contact Details</h2>
                                 <li>
-                                    <label style={{ color: "blue" }}>ADDRESS :</label>
-                                    <p>Angrahi, Aurangabad, Bihar, INDIA</p>
-                                </li>
-
-                                <li>
                                     <label style={{ color: "blue" }}>PHONE :</label>
                                     <p>+91 9116 736 861</p>
                                 </li>

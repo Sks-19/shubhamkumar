@@ -13,15 +13,16 @@ const Work = () => {
                 </div>
                 <br />
 
-                {ProjectData.map((val) => {
-                    return (
-                        <Project
-                            name={val.name}
-                            tech_used={val.tech_used}
-                            desc={val.desc}
-                        />
-                    );
-                })}
+                {ProjectData.map((val, i) =>
+                    <Project
+                        name={val.name}
+                        link={val.link}
+                        tech_used={val.tech_used}
+                        desc={val.desc}
+                        photo={val.photo}
+                        key={i}
+                    />
+                )}
             </div>
         </>
     );
