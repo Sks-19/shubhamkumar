@@ -1,12 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import {
-    BsTwitter,
-    BsInstagram,
     BsLinkedin,
     BsGithub
 }
     from 'react-icons/bs';
+import {
+    FaHackerrank
+}
+    from 'react-icons/fa';
+import {
+    SiLeetcode
+}
+    from 'react-icons/si';
+
 function Footer() {
     return (
         <>
@@ -15,17 +22,17 @@ function Footer() {
                     <section>
                         <a
                             class="btn btn-link btn-floating btn-lg text-white m-1"
-                            href="https://twitter.com/beingsk45"
+                            href="https://www.hackerrank.com/Shubham_Kumar_45?hr_r=1"
                             role="button"
                             data-mdb-ripple-color="dark"
-                        ><BsTwitter /></a>
+                        ><FaHackerrank /></a>
 
                         <a
                             class="btn btn-link btn-floating btn-lg text-white m-1"
-                            href="https://www.instagram.com/_.shubham.kr.sharma._/"
+                            href="https://leetcode.com/Sharma1945/"
                             role="button"
                             data-mdb-ripple-color="dark"
-                        ><BsInstagram /></a>
+                        ><SiLeetcode /></a>
 
                         <a
                             class="btn btn-link btn-floating btn-lg text-white m-1"

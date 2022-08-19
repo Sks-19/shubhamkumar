@@ -17,7 +17,7 @@ const ContactMe = () => {
             'FocoevkF_QF4Ka9t0')
             .then((result) => {
                 console.log("SUCCESS. status=%d, text=%s", result.status, result.text);
-                window.location.href = '/contactme';
+                window.location.reload(false);
             }, (error) => {
                 console.log(error.text);
             });
