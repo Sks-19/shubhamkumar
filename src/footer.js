@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import {
-    BsFacebook,
     BsTwitter,
     BsInstagram,
     BsLinkedin,
@@ -14,13 +13,6 @@ function Footer() {
             <footer class="text-center text-white" style={{ backgroundColor: "#000000" }}>
                 <div class="container pt-4">
                     <section>
-                        <a
-                            class="btn btn-link btn-floating btn-lg text-white m-1"
-                            href="https://m.facebook.com/100006499862197/"
-                            role="button"
-                            data-mdb-ripple-color="dark"
-                        ><BsFacebook /></a>
-
                         <a
                             class="btn btn-link btn-floating btn-lg text-white m-1"
                             href="https://twitter.com/beingsk45"
