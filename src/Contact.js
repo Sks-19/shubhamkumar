@@ -16,6 +16,7 @@ const ContactMe = () => {
             form.current,
             'FocoevkF_QF4Ka9t0')
             .then((result) => {
+                alert("Mail sent successfully, Thank You!")
                 console.log("SUCCESS. status=%d, text=%s", result.status, result.text);
                 window.location.reload(false);
             }, (error) => {

@@ -24,7 +24,7 @@ function Navbar() {
                 >
                     <ul>
                         <li>
-                            <NavLink className="NavLink" to='/shubhamkumar' onClick={() => setShowMediaIcons(!showMediaIcons)}>About</NavLink>
+                            <NavLink className="NavLink" to='/shubhamkumarportfolio' onClick={() => setShowMediaIcons(!showMediaIcons)}>About</NavLink>
                         </li>
                         <li>
                             <NavLink className="NavLink" to='/resume' onClick={() => setShowMediaIcons(!showMediaIcons)}>Resume</NavLink>
