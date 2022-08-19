@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shubhamkumar/static/css/main.8f3365fb.css",
-    "main.js": "/shubhamkumar/static/js/main.5d2cd10d.js",
-    "static/media/Shubham.JPG": "/shubhamkumar/static/media/Shubham.565303002ef8de9d62ea.JPG",
-    "static/media/Weather_report.png": "/shubhamkumar/static/media/Weather_report.c24fd662463730eb17b0.png",
-    "static/media/Evento.png": "/shubhamkumar/static/media/Evento.c69dacc5cf6a869bf108.png",
-    "index.html": "/shubhamkumar/index.html",
-    "main.8f3365fb.css.map": "/shubhamkumar/static/css/main.8f3365fb.css.map",
-    "main.5d2cd10d.js.map": "/shubhamkumar/static/js/main.5d2cd10d.js.map"
+    "main.css": "/shubhamkumarportfolio/static/css/main.7d1052b9.css",
+    "main.js": "/shubhamkumarportfolio/static/js/main.b116c210.js",
+    "static/media/Shubham.JPG": "/shubhamkumarportfolio/static/media/Shubham.565303002ef8de9d62ea.JPG",
+    "static/media/Weather_report.png": "/shubhamkumarportfolio/static/media/Weather_report.c24fd662463730eb17b0.png",
+    "static/media/Evento.png": "/shubhamkumarportfolio/static/media/Evento.c69dacc5cf6a869bf108.png",
+    "index.html": "/shubhamkumarportfolio/index.html",
+    "main.7d1052b9.css.map": "/shubhamkumarportfolio/static/css/main.7d1052b9.css.map",
+    "main.b116c210.js.map": "/shubhamkumarportfolio/static/js/main.b116c210.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f3365fb.css",
-    "static/js/main.5d2cd10d.js"
+    "static/css/main.7d1052b9.css",
+    "static/js/main.b116c210.js"
   ]
 }
