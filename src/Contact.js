@@ -16,7 +16,8 @@ const ContactMe = () => {
             form.current,
             'FocoevkF_QF4Ka9t0')
             .then((result) => {
-                console.log(result.text);
+                console.log("SUCCESS. status=%d, text=%s", result.status, result.text);
+                window.location.href = '/contactme';
             }, (error) => {
                 console.log(error.text);
             });

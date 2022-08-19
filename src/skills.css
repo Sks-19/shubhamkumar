@@ -1,0 +1,19 @@
+.progressBar {
+	color: black;
+	margin-left: 5%;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+.label {
+	margin: 2% 0% 2% 5%;
+	color: #fff;
+	font-weight: 600;
+}
+
+.progressBarLast {
+	color: black;
+	margin: 0% 0% 5% 5%;
+	background-color: transparent;
+	border: 1px solid black;
+}

@@ -1,80 +1,45 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import './skills.scss';
+import './skills.css';
 
 function Skill() {
 	return (
 		<>
-			<div class="container__progressbars">
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-react shadow-react"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-react">React.js</span>
-				</div>
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-js shadow-js"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-js">JavaScript</span>
-				</div>
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-html">HTML</span>
-				</div>
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-css">CSS</span>
-				</div>
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-bootstrap shadow-bootstrap"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-bootstrap">Bootstrap</span>
-				</div>
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-scss shadow-scss"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-scss">SCSS</span>
-				</div>
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-ts shadow-ts"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-ts">TypeScript</span>
-				</div>
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-node shadow-node"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-node">Node.js</span>
-				</div>
-
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-python shadow-python"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-python">Python</span>
-				</div>
-				<div class="progressbar">
-					<svg class="progressbar__svg">
-						<circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-django shadow-django"> </circle>
-					</svg>
-					<span class="progressbar__text shadow-django">Django</span>
-				</div>
+			<label className='label'>React.js</label>
+			<div class="progress progressBar">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "60%", backgroundColor: "#ADFF2F" }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">60%</div>
+			</div>
+			<label className='label'>JavaScript</label>
+			<div class="progress progressBar">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "70%", backgroundColor: "#FF69B4" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+			</div>
+			<label className='label'>Python</label>
+			<div class="progress progressBar">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "70%", backgroundColor: "#FFE4B5" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
+			</div>
+			<label className='label'>HTML & CSS</label>
+			<div class="progress progressBar">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "80%", backgroundColor: "#00FFFF" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+			</div>
+			<label className='label'>Bootstrap</label>
+			<div class="progress progressBar">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "70%", backgroundColor: "#7FFF00" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">70%</div>
+			</div>
+			<label className='label'>TypeScript</label>
+			<div class="progress progressBar">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "50%", backgroundColor: "#FF7F50" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">50%</div>
+			</div>
+			<label className='label'>Django</label>
+			<div class="progress progressBar">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "60%", backgroundColor: "#008B8B" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">60%</div>
+			</div>
+			<label className='label'>Express.js</label>
+			<div class="progress progressBar">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "50%", backgroundColor: "#8FBC8F" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">50%</div>
+			</div>
+			<label className='label'>RESTful API</label>
+			<div class="progress progressBarLast">
+				<div class="progress-bar progress-bar-striped" role="progressbar" style={{ width: "50%", backgroundColor: "#800000" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">50%</div>
 			</div>
 		</>
 	);

@@ -24,16 +24,16 @@ function Navbar() {
                 >
                     <ul>
                         <li>
-                            <NavLink className="NavLink" to='/shubhamkumar'>About</NavLink>
+                            <NavLink className="NavLink" to='/shubhamkumar' onClick={() => setShowMediaIcons(!showMediaIcons)}>About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="NavLink" to='/resume'>Resume</NavLink>
+                            <NavLink className="NavLink" to='/resume' onClick={() => setShowMediaIcons(!showMediaIcons)}>Resume</NavLink>
                         </li>
                         <li>
-                            <NavLink className="NavLink" to='/work'>Project</NavLink>
+                            <NavLink className="NavLink" to='/work' onClick={() => setShowMediaIcons(!showMediaIcons)}>Projects</NavLink>
                         </li>
                         <li>
-                            <NavLink className="NavLink" to='/contactme'>Contact Me</NavLink>
+                            <NavLink className="NavLink" to='/contactme' onClick={() => setShowMediaIcons(!showMediaIcons)}>Contact Me</NavLink>
                         </li>
                     </ul>
                 </div>

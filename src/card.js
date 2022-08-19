@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import { NavLink } from 'react-router-dom';
 import image from './Images/Shubham.JPG';
 import './card.css';
 
@@ -19,6 +20,16 @@ function Card() {
               <hr className='Hr' />
               <h4 className="title"><span>W</span>EB <span>D</span>EVELOPER</h4>
             </div>
+            <NavLink to='/resume'
+              type='button'
+              className='btn btn-primary resumeSubmit'>
+              RESUME
+            </NavLink>
+            <NavLink to='/work'
+              type="button"
+              className='btn btn-primary projectSubmit'>
+              PROJECTS
+            </NavLink>
           </div>
         </div>
 
@@ -41,7 +52,7 @@ function Card() {
             <a href='Shubham_Ku.pdf'
               download="shubham_kumar_cv.pdf"
               type="button"
-              className='btn btn-secondary submit'>
+              className='btn btn-primary submit'>
               DOWNLOAD CV
             </a>
           </div>
