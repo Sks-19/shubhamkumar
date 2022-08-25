@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/shubhamkumarportfolio/static/css/main.7d1052b9.css",
-    "main.js": "/shubhamkumarportfolio/static/js/main.b116c210.js",
+    "main.css": "/shubhamkumarportfolio/static/css/main.38f3313c.css",
+    "main.js": "/shubhamkumarportfolio/static/js/main.fa63840f.js",
     "static/media/Shubham.JPG": "/shubhamkumarportfolio/static/media/Shubham.565303002ef8de9d62ea.JPG",
     "static/media/Weather_report.png": "/shubhamkumarportfolio/static/media/Weather_report.c24fd662463730eb17b0.png",
     "static/media/Evento.png": "/shubhamkumarportfolio/static/media/Evento.c69dacc5cf6a869bf108.png",
+    "static/media/Admin_Panel.png": "/shubhamkumarportfolio/static/media/Admin_Panel.68235b80c9acf83aecf5.png",
     "index.html": "/shubhamkumarportfolio/index.html",
-    "main.7d1052b9.css.map": "/shubhamkumarportfolio/static/css/main.7d1052b9.css.map",
-    "main.b116c210.js.map": "/shubhamkumarportfolio/static/js/main.b116c210.js.map"
+    "main.38f3313c.css.map": "/shubhamkumarportfolio/static/css/main.38f3313c.css.map",
+    "main.fa63840f.js.map": "/shubhamkumarportfolio/static/js/main.fa63840f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d1052b9.css",
-    "static/js/main.b116c210.js"
+    "static/css/main.38f3313c.css",
+    "static/js/main.fa63840f.js"
   ]
 }
