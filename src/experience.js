@@ -9,7 +9,7 @@ function Experience(props) {
                 <div className="expContent">
                     <p>{props.duration}</p>
                     <h2>{props.position}<br /> <span>{props.company}</span></h2>
-                    <ul>
+                    <ul className='a'>
                         <li>
                             <h5>{props.exp1}</h5>
                         </li>

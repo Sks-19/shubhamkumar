@@ -12,14 +12,16 @@ const ExperienceData = [
         position: "Frontend Developer",
         company: "Digital1x1",
         exp1: "Digital1x1 was supposed to provide IT and Marketing services to early-stage startups.",
-        exp2: "I was working as a Frontend Developer on the company websites with other team members, and provided services such as designing, developing webpage-tool as per team requirements."
+        exp2: "I was working as a Frontend Developer on the company websites with other team members, and provided services such as designing, developing webpage-tool as per team requirements.",
+        exp3: "Build 10+ interactive, single-page react apps that could scale with both increase in interaction complexity and volume"
     },
     {
         duration: "May, 2019 - July, 2019",
-        position: "Python(Django) Developer Trainee",
+        position: "Web Developer Trainee",
         company: "C-DAC",
         exp1: "Centre for Development of Advanced Computing (C-DAC) is the premier R&D organization of the Department of Electronics and Information Technology.",
-        exp2: "Created & Maintained frontend code for websites with a seamless user experience."
+        exp2: "Created & Maintained frontend code for websites with a seamless user experience.",
+        exp3: "This project is helpful for each company to reach out more audience for their events"
     }
 ]
 export default ExperienceData;

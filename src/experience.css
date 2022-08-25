@@ -28,6 +28,10 @@
   font-weight: bold;
 }
 
+.expContent ul.a li {
+  list-style-type: square;
+}
+
 .expContent h5 {
   color: white;
   font-size: 1.0em;

@@ -36,19 +36,13 @@ function Card() {
         <div className="col-sm-12 col-md-6 col-lg-6">
           <div className="About">
             <h1 className='Hello'>About <span style={{ fontWeight: "bold" }}>Me</span></h1>
-            <h5>I am a Frontend Developer.</h5>
             <br />
-            <p>
-              For the past 18 months, I am working with TCS which is one of the biggest IT company in the country.
-              Where my day-to-day job is to maintain the flow of data to the downstream client.
-              We are maintaining the data quality from different sources in the data warehouse.
-              <br />
-              During my engineering, I developed love for web technology, since I love to create beautiful and performant products with a delightful user experience.
-              <br />
-              During last year of my engineering, I was working with a start-up Digital1x1, which was supposed to provide IT and marketing services to early-stage startups,
-              as a frontend developer I was working on the company websites with other team members,
-              and provided services such as designing, developing web page-tool as per team requirements.
-            </p>
+            <p>I'm a Software Engineer with 1.8 years of experience in Web Development,
+              with proficiency in web technologies like
+              React, JavaScript, HTML5, CSS3, and Bootstrap,
+              building large-scale web applications,
+              cross-browser platforms,  and design constraints on the web,
+              and building responsive user interfaces.</p>
             <a href='Shubham_Ku.pdf'
               download="shubham_kumar_cv.pdf"
               type="button"
