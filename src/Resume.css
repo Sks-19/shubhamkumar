@@ -1,7 +1,6 @@
 .Resume {
   height: 100%;
-  width: 100vw;
-  background-image: radial-gradient(#6cd0ff, #1c2e4c);
+  width: 100%;
   /* background: linear-gradient(to bottom right, #6cd0ff 30%, #1c2e4c 50%); */
 }
 
