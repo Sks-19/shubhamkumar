@@ -39,7 +39,7 @@ function Card() {
           </div>
         </div>
 
-        <div className="col-sm-10 col-md-6 col-lg-6">
+        <div className="col-sm-12 col-md-6 col-lg-6">
           <div className="About">
             <h1 className="Hello">
               About <span style={{ fontWeight: "bold" }}>Me</span>
@@ -57,7 +57,7 @@ function Card() {
                 href="Shubham Kumar.pdf"
                 download="shubham kumar.pdf"
                 type="button"
-                className="btn btn-primary submit"
+                className="btn btn-outline-success submit"
               >
                 DOWNLOAD CV
               </a>

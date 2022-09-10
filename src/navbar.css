@@ -221,7 +221,7 @@ li {
   }
 
   .social-media {
-    height: 4rem;
+    height: 3rem;
     display: flex;
     justify-self: end;
     align-items: center;
@@ -229,6 +229,9 @@ li {
 
   .social-media .hamburger-menu {
     display: block;
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+  .hamburger {
+    color: #fff;
   }
 }

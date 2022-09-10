@@ -26,7 +26,7 @@ const Resume = () => {
               type="button"
               className="btn btn-primary DownloadCV"
             >
-              DOWNLOAD CV
+              DOWNLOAD
             </a>
           </div>
         </div>

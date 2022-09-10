@@ -65,7 +65,7 @@ function Navbar() {
         <div className="social-media">
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <GiHamburgerMenu />
+              <GiHamburgerMenu className="hamburger" />
             </a>
           </div>
         </div>
