@@ -8,7 +8,7 @@ function Card() {
   return (
     <>
       <div className="row justify-content-center">
-        <div className="col-sm-10 col-md-6 col-lg-6">
+        <div className="col-sm-12 col-md-6 col-lg-6">
           <div className="our-team">
             <div className="picture">
               <img className="img-fluid" src={image} alt="Shubham Kumar" />
@@ -57,7 +57,7 @@ function Card() {
                 href="Shubham Kumar.pdf"
                 download="shubham kumar.pdf"
                 type="button"
-                className="btn btn-outline-success submit"
+                className="btn btn-primary submit"
               >
                 DOWNLOAD CV
               </a>
