@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #D2B48C 10%, #D2B48C 30%);
+  background-image: radial-gradient(#6cd0ff, #1c2e4c);
 }
 
 /*D2B48C*/

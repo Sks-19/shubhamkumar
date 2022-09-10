@@ -1,15 +1,15 @@
 .Project {
-    height: 100%;
-    width: 100%;
-    background-color: #D2B48C;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#ff9c60, #ffd6b8);
 }
 
 .Project_title {
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 
 .Project h1 {
-    margin-left: 5%;
-    color: #fff;
+  margin-left: 5%;
+  color: #fff;
 }

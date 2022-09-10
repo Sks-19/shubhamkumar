@@ -1,5 +1,6 @@
 .expCard {
-  background-color: #000000;
+  background-color: #311d3f;
+  background: linear-gradient(to bottom right, #311d3f 35%, #522546 60%);
   margin: 5%;
   border-radius: 5px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
@@ -9,7 +10,6 @@
   position: relative;
   padding: 5%;
   justify-content: left;
-
 }
 
 .expContent p {
@@ -34,6 +34,6 @@
 
 .expContent h5 {
   color: white;
-  font-size: 1.0em;
+  font-size: 1em;
   font-weight: bolder;
 }

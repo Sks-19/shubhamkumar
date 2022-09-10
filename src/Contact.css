@@ -1,16 +1,16 @@
 .Contact {
-    background-color: #D2B48C;
+  background-image: radial-gradient(#2a2b2a, #9cebb3);
 }
 
 .inp {
-    margin-bottom: 4%;
+  margin-bottom: 4%;
 }
 
 .contact {
-    padding-top: 10%;
-    padding-bottom: 5%;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .button {
-    width: 100%;
+  width: 100%;
 }

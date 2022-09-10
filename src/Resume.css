@@ -1,16 +1,17 @@
 .Resume {
-    height: 100%;
-    width: 100%;
-    background-color: #D2B48C;
+  height: 100%;
+  width: 100vw;
+  background-image: radial-gradient(#f2c5ff, #801155);
+  /* background: linear-gradient(to bottom right, #6cd0ff 30%, #1c2e4c 50%); */
 }
 
 .Resume h1 {
-    text-align: center;
-    padding: 5%;
-    color: #fff;
+  text-align: center;
+  padding: 5%;
+  color: #fff;
 }
 
 .Resume h4 {
-    margin-left: 5%;
-    color: #fff;
+  margin-left: 5%;
+  color: #fff;
 }

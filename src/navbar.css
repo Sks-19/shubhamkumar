@@ -12,6 +12,7 @@ li {
   width: 100%;
   height: 4rem;
   background-color: #000000;
+  opacity: 0.6;
   display: grid;
   grid-template-columns: 10rem 1fr 1fr 2fr 10rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px,
@@ -48,13 +49,13 @@ li {
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
-  background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+  background-image: radial-gradient(#fff, #1c2e4c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .logo h3 span {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
 }
 
 .menu-link ul li {
@@ -67,7 +68,7 @@ li {
   transition: 0.5s;
 }
 
-.menu-link ul li:hover>.NavLink {
+.menu-link ul li:hover > .NavLink {
   transform-origin: left;
   color: rgba(0, 0, 3, 1);
   text-decoration: underline;
@@ -131,7 +132,7 @@ li {
   }
 
   .mobile-menu-link {
-    background-color: #D2B48C;
+    background-image: radial-gradient(#6cd0ff, #1c2e4c);
     height: 20rem;
     display: grid;
     grid-column: 2/5;

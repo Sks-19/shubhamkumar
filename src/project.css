@@ -1,5 +1,5 @@
 .projectCard {
-  background-color: #000000;
+  background-image: radial-gradient(#626262, #9bc5c3);
   margin: 5%;
   border-radius: 5px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
@@ -29,7 +29,7 @@
 
 .projectContent .detail h5 {
   color: #fff;
-  font-size: 1.0em;
+  font-size: 1em;
   font-weight: bolder;
 }
 
