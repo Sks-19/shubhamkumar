@@ -15,7 +15,21 @@ const Resume = () => {
         <h1>
           My <span style={{ fontWeight: "bold" }}>Resume</span>
         </h1>
-        <h4 style={{ fontWeight: "bold" }}>Experience :</h4>
+        <div className="row mx-1">
+          <div className="col col-7">
+            <h4 style={{ fontWeight: "bold" }}>Experience :</h4>
+          </div>
+          <div className="col col-5">
+            <a
+              href="Shubham Kumar.pdf"
+              download="shubham kumar.pdf"
+              type="button"
+              className="btn btn-primary DownloadCV"
+            >
+              DOWNLOAD CV
+            </a>
+          </div>
+        </div>
 
         {ExperienceData.map((val) => {
           return (

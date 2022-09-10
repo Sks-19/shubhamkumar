@@ -1,27 +1,35 @@
 const ExperienceData = [
-    {
-        duration: "Jan, 2021 - Present",
-        position: "Assistant System Engineer",
-        company: "Tata Consultancy Services",
-        exp1: "I have been working with Teradata and Snowflake platform and responsible for RCA & Data Patches.",
-        exp2: "I have developed Interactive Dashboards to reduce repetitive and manual efforts.",
-        exp3: "I have alos worked on Queries & Procedures optimization and improved performance.",
-    },
-    {
-        duration: "May, 2020 - Nov, 2020",
-        position: "Frontend Developer",
-        company: "Digital1x1",
-        exp1: "Digital1x1 was supposed to provide IT and Marketing services to early-stage startups.",
-        exp2: "I was working as a Frontend Developer on the company websites with other team members, and provided services such as designing, developing webpage-tool as per team requirements.",
-        exp3: "Build 10+ interactive, single-page react apps that could scale with both increase in interaction complexity and volume"
-    },
-    {
-        duration: "May, 2019 - July, 2019",
-        position: "Web Developer Trainee",
-        company: "C-DAC",
-        exp1: "Centre for Development of Advanced Computing (C-DAC) is the premier R&D organization of the Department of Electronics and Information Technology.",
-        exp2: "Created & Maintained frontend code for websites with a seamless user experience.",
-        exp3: "This project is helpful for each company to reach out more audience for their events"
-    }
-]
+  {
+    duration: "Jan, 2022 - Present",
+    position: "Assistant System Engineer",
+    company: "Tata Consultancy Services",
+    exp1: "Working with Teradata & Snowflake platforms and responsible for RCA & Data Patches.",
+    exp2: "Contributed to Interactive Dashboards development to reduce repetitive and manual efforts by 30 %.",
+    exp3: "Contributing to the team for analyzing issues and proposing solutions to clients.",
+  },
+  {
+    duration: "Jan, 2021 - Dec, 2022",
+    position: "Frontend Engineer",
+    company: "Tata Consultancy Services",
+    exp1: "Supported existing customer by updating website content, refining code,and resolving problems to their satisfaction.",
+    exp2: "Researched, investigated, and fixed UI and functionality bugs to improve overall performance by 25%.",
+    exp3: "Monitored and improved frontend performance by 15% and documented application changes & worked on updates",
+  },
+  {
+    duration: "May, 2020 - Nov, 2020",
+    position: "Frontend Developer",
+    company: "Digital1x1",
+    exp1: "Designed and developed 5 +web applications with React.js and JavaScript, including optimized web pages, resulting in 25% increase in user clicks.",
+    exp2: "Formulated and implement improvements on cleanup processes and performance, minimizing downtime by 10%.",
+    exp3: "Establish an interactive and dynamic website that ensures high page views, and maximum user experience, generating a 20% increase in the company’s sales revenue.",
+  },
+  {
+    duration: "May, 2019 - July, 2019",
+    position: "Web Developer Trainee",
+    company: "C-DAC",
+    exp1: "Centre for Development of Advanced Computing (C-DAC) is the premier R&D organization of the Department of Electronics and Information Technology.",
+    exp2: "Collaborated in a cross-functional team of 3 interns on an online event management website.",
+    exp3: "Designed and developed an interactive and dynamic website to delight the user and deliver functionality in an elegant and efficient manne.",
+  },
+];
 export default ExperienceData;

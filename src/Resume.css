@@ -1,7 +1,7 @@
 .Resume {
   height: 100%;
   width: 100vw;
-  background-image: radial-gradient(#f2c5ff, #801155);
+  background-image: radial-gradient(#6cd0ff, #1c2e4c);
   /* background: linear-gradient(to bottom right, #6cd0ff 30%, #1c2e4c 50%); */
 }
 
@@ -14,4 +14,14 @@
 .Resume h4 {
   margin-left: 5%;
   color: #fff;
+}
+.DownloadCV {
+  background-color: transparent;
+  color: #000000;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  margin: 0% 10% 0% 0%;
 }

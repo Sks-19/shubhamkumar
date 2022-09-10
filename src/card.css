@@ -5,7 +5,7 @@
   overflow: hidden;
   position: relative;
   /* background-color: #000000; */
-  background-image: radial-gradient(#fbee97, #adedd5);
+  background: linear-gradient(to bottom, #9cebb3 10%, #2a2b2a 50%);
   border-style: 0px solid;
   box-shadow: 1px 3px 15px #888888;
 }
@@ -133,9 +133,10 @@ Hr {
 }
 
 .Hello {
-  color: #000000;
-  font-size: 4rem;
+  color: #fff;
+  font-size: 3rem;
   line-height: 1;
+  text-align: center;
 }
 
 .About h5 {
@@ -143,7 +144,8 @@ Hr {
 }
 
 .About p {
-  color: #000000;
+  color: #fff;
+  text-align: center;
 }
 
 .submit {
@@ -176,4 +178,9 @@ Hr {
   padding: 2%;
   width: 35%;
   margin: 5% 5% 0% 0%;
+}
+
+.downloadCV {
+  text-align: center;
+  align-items: center;
 }

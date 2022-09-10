@@ -1,5 +1,5 @@
 .projectCard {
-  background-image: radial-gradient(#626262, #9bc5c3);
+  background: linear-gradient(to bottom right, #311d3f 35%, #522546 60%);
   margin: 5%;
   border-radius: 5px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
