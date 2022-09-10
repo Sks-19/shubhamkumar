@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom right, #6cd0ff 25%, #1c2e4c 50%);
+  background-image: linear-gradient(to bottom right, #1c2e4c 10%, #6cd0ff 80%);
   /* background-color: #28223f; */
 }
 
