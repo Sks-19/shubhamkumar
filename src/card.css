@@ -82,7 +82,7 @@
 .our-team .title {
   display: block;
   font-size: 20px;
-  color: #fff;
+  color: gray;
   text-transform: capitalize;
 }
 
@@ -135,6 +135,7 @@ Hr {
 .projectSubmit {
   background-color: transparent;
   align-items: center;
+  color: #000000;
   justify-content: center;
   text-align: center;
   border-radius: 25px;
@@ -147,6 +148,7 @@ Hr {
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: #000000;
   border-radius: 25px;
   padding: 2%;
   width: 35%;
