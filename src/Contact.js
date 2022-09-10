@@ -38,7 +38,7 @@ const ContactMe = () => {
         <div className="container-fluid Contact">
           <div class="row contact">
             <div class="col-md-9 mb-md-0 mb-5">
-              <h2 class="h1-responsive font-weight-bold text-left text-white my-4">
+              <h2 class="h1-responsive font-weight-bold text-left text-dark my-4">
                 Get In Touch
               </h2>
 
@@ -107,17 +107,17 @@ const ContactMe = () => {
 
             <div class="col-md-3 text-center">
               <ul class="list-unstyled mb-0">
-                <h2 class="h1-responsive font-weight-bold text-center text-white my-4">
+                <h2 class="h1-responsive font-weight-bold text-center text-dark my-4">
                   My contact Details
                 </h2>
                 <li>
                   <label style={{ color: "blue" }}>PHONE :</label>
-                  <p style={{ color: "white" }}>+91 9116 736 861</p>
+                  <p style={{ color: "black" }}>+91 9116 736 861</p>
                 </li>
 
                 <li>
                   <label style={{ color: "blue" }}>EMAIL :</label>
-                  <p style={{ color: "white" }}>shubhamrms19@gmail.com</p>
+                  <p style={{ color: "black" }}>shubhamrms19@gmail.com</p>
                 </li>
               </ul>
             </div>

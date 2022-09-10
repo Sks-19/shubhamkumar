@@ -131,7 +131,7 @@ li {
   }
 
   .mobile-menu-link {
-    background-image: radial-gradient(#6cd0ff, #1c2e4c);
+    background-image: radial-gradient(#ff8080, #ffe4e1);
     height: 20rem;
     display: grid;
     grid-column: 2/5;

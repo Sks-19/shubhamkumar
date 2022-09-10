@@ -5,7 +5,7 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-image: radial-gradient(#6cd0ff, #1c2e4c);
+  background-image: radial-gradient(#ff8080, #ffe6e6);
   /* background: linear-gradient(to bottom, #9cebb3 10%, #2a2b2a 50%); */
   border-style: 0px solid;
   box-shadow: 1px 3px 15px radial-gradient(#6cd0ff, #1c2e4c);
