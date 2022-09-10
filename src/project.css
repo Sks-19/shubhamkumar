@@ -37,3 +37,24 @@
   width: 100%;
   padding: 2%;
 }
+
+.btnLive {
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  padding: 2%;
+  width: 35%;
+  margin-top: 2%;
+}
+
+.btnCode {
+  background-color: transparent;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  padding: 2%;
+  width: 35%;
+  margin: 2% 0% 0% 10%;
+}
