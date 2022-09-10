@@ -8,7 +8,7 @@ function Card() {
   return (
     <>
       <div className="row justify-content-center">
-        <div className="col-sm-12 col-md-6 col-lg-6">
+        <div className="col-sm-10 col-md-6 col-lg-6">
           <div className="our-team">
             <div className="picture">
               <img className="img-fluid" src={image} alt="Shubham Kumar" />
@@ -39,7 +39,7 @@ function Card() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-6 col-lg-6">
+        <div className="col-sm-10 col-md-6 col-lg-6">
           <div className="About">
             <h1 className="Hello">
               About <span style={{ fontWeight: "bold" }}>Me</span>
