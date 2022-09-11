@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: radial-gradient(#000000, #000000);
+  background-image: radial-gradient(#100000 40%, #180000 70%);
   /* background-color: #28223f; */
 }
 
