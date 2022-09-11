@@ -7,17 +7,17 @@
 .Resume h1 {
   text-align: center;
   padding: 5%;
-  color: #000000;
+  color: #fff;
 }
 
 .Resume h4 {
   margin-left: 5%;
-  color: #000000;
+  color: #fff;
 }
 
 .DownloadCV {
   background-color: transparent;
-  color: #000000;
+  color: #fff;
   float: right;
   align-items: center;
   justify-content: center;

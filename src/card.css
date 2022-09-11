@@ -5,10 +5,10 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-image: radial-gradient(#ffe4e1, #ff9999);
+  background-image: radial-gradient(#505050, #606060);
   /* background: linear-gradient(to bottom, #9cebb3 10%, #2a2b2a 50%); */
   border-style: 0px solid;
-  box-shadow: 1px 3px 15px radial-gradient(#6cd0ff, #1c2e4c);
+  box-shadow: 1px 3px 15px radial-gradient(#202020, #282828);
 }
 
 .our-team .picture {
@@ -26,7 +26,7 @@
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-image: radial-gradient(#ff9999, #ffe4e1);
+  background-image: radial-gradient(#202020, #282828);
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -45,7 +45,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-image: radial-gradient(#ff9999, #ffe4e1);
+  background-image: radial-gradient(#202020, #282828);
   position: absolute;
   top: 0;
   left: 0;
@@ -70,7 +70,7 @@
   font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
-  background: -webkit-linear-gradient(#000000, #000000);
+  background: -webkit-linear-gradient(#ffffff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -82,7 +82,7 @@
 .our-team .title {
   display: block;
   font-size: 20px;
-  color: gray;
+  color: #ffffff;
   text-transform: capitalize;
 }
 
@@ -106,24 +106,24 @@ Hr {
 }
 
 .Hello {
-  color: #000000;
+  color: #ffffff;
   font-size: 3rem;
   line-height: 1;
   text-align: center;
 }
 
 .About h5 {
-  color: #000000;
+  color: #fff;
 }
 
 .About p {
-  color: #000000;
+  color: #fff;
   text-align: center;
 }
 
 .submit {
   background-color: transparent;
-  color: #000000;
+  color: #fff;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -135,7 +135,7 @@ Hr {
 .projectSubmit {
   background-color: transparent;
   align-items: center;
-  color: #000000;
+  color: #fff;
   justify-content: center;
   text-align: center;
   border-radius: 25px;
@@ -148,7 +148,7 @@ Hr {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #000000;
+  color: #fff;
   border-radius: 25px;
   padding: 2%;
   width: 35%;
