@@ -19,7 +19,7 @@ const ExperienceData = [
     duration: "May, 2020 - Nov, 2020",
     position: "Frontend Developer",
     company: "Digital1x1",
-    exp1: "Designed and developed 5 +web applications with React.js and JavaScript, including optimized web pages, resulting in 25% increase in user clicks.",
+    exp1: "Designed and developed 5+ web applications with React.js and JavaScript, including optimized web pages, resulting in 25% increase in user clicks.",
     exp2: "Formulated and implement improvements on cleanup processes and performance, minimizing downtime by 10%.",
     exp3: "Establish an interactive and dynamic website that ensures high page views, and maximum user experience, generating a 20% increase in the company’s sales revenue.",
   },
