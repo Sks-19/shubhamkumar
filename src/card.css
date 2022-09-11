@@ -5,15 +5,15 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  background-image: radial-gradient(#505050, #606060);
+  background-image: radial-gradient(#202020, #282828);
   border-style: 0px solid;
   box-shadow: 1px 3px 15px radial-gradient(#202020, #282828);
 }
 
 .our-team .picture {
   display: inline-block;
-  height: 250px;
-  width: 250px;
+  height: 230px;
+  width: 230px;
   margin-bottom: 10%;
   margin-top: 3%;
   z-index: 1;

@@ -28,6 +28,7 @@ function Navbar() {
                 className="NavLink"
                 to="/shubhamkumarportfolio"
                 onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
               >
                 About
               </NavLink>
@@ -37,6 +38,7 @@ function Navbar() {
                 className="NavLink"
                 to="/resume"
                 onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
               >
                 Resume
               </NavLink>
@@ -46,6 +48,7 @@ function Navbar() {
                 className="NavLink"
                 to="/work"
                 onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
               >
                 Projects
               </NavLink>
@@ -55,6 +58,7 @@ function Navbar() {
                 className="NavLink"
                 to="/contactme"
                 onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
               >
                 Contact Me
               </NavLink>

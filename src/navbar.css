@@ -81,19 +81,6 @@ li {
 .social-media .hamburger-menu {
   display: none;
 }
-
-.facebook {
-  color: #3b5998;
-}
-
-.instagram {
-  color: #c32aa3;
-}
-
-.youtube {
-  color: #ff0000;
-}
-
 /* responsive css style  */
 @media (max-width: 1080px) {
   .main-nav {
