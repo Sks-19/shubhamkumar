@@ -6,7 +6,6 @@
   overflow: hidden;
   position: relative;
   background-image: radial-gradient(#505050, #606060);
-  /* background: linear-gradient(to bottom, #9cebb3 10%, #2a2b2a 50%); */
   border-style: 0px solid;
   box-shadow: 1px 3px 15px radial-gradient(#202020, #282828);
 }
