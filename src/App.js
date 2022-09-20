@@ -12,10 +12,11 @@ import Navbar from "./navbar";
 import { MdArrowCircleUp } from "react-icons/md";
 
 function App() {
-  var btn = document.getElementById("go-up");
+  let btn = document.getElementById("go-up");
   window.addEventListener("scroll", function () {
-    btn.classList.toggle("show", window.scrollY > 200);
+    btn.classList.toggle("show", window.scrollY < 100);
   });
+
   return (
     <>
       <Navbar />

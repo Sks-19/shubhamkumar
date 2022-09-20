@@ -11,8 +11,8 @@ const Certification = (props) => {
               {props.name}
               <br /> <span>{props.organization}</span>
             </h2>
-            <p>Issued {props.issueDate}</p>
-            <p>Credential ID : {props.Id}</p>
+            <p className="text-white">Issued {props.issueDate}</p>
+            <p className="text-white">Credential ID : {props.Id}</p>
           </div>
           <div>
             <a href={props.link} type="button" className="btn btn-info btnLive">
