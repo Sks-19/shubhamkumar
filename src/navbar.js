@@ -18,6 +18,7 @@ function Navbar() {
         </div>
 
         <div
+          id="navbar"
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }

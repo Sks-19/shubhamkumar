@@ -13,9 +13,21 @@ import { MdArrowCircleUp } from "react-icons/md";
 
 function App() {
   let btn = document.getElementById("go-up");
-  window.addEventListener("scroll", function () {
-    btn.classList.toggle("show", window.scrollY < 150);
-  });
+
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 90 ||
+      document.documentElement.scrollTop > 90
+    ) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  }
 
   return (
     <>

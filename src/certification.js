@@ -15,7 +15,11 @@ const Certification = (props) => {
             <p className="text-white">Credential ID : {props.Id}</p>
           </div>
           <div>
-            <a href={props.link} type="button" className="btn btn-info btnLive">
+            <a
+              href={props.link}
+              type="button"
+              className="btn btn-info text-white btnLive"
+            >
               Show credential
             </a>
           </div>
