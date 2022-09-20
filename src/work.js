@@ -7,7 +7,7 @@ import "./Work.css";
 const Work = () => {
   return (
     <>
-      <div className="container-fluid Project">
+      <div className="container-fluid Project" id="work">
         <div className="Project_title">
           <h1>
             My <span style={{ fontWeight: "bold" }}>Projects</span>

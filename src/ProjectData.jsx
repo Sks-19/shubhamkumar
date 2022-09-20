@@ -1,9 +1,27 @@
 import Weather from "./Images/Weather_report.png";
 import Evento from "./Images/Evento.png";
 import Admin from "./Images/Admin_Panel.png";
+import Animes from "./Images/Animes.png";
+import Dishpoll from "./Images/dish-poll.png";
 import Dice from "./Images/dicegame.png";
 
 const ProjectData = [
+  {
+    name: "Dish Poll",
+    link: "https://sks-19.github.io/favdishes/",
+    tech_used: "React, Redux, API and Axios",
+    desc: "This is a small react app for ranking dishes. Multiple users can login into the app and vote for their favourite dishes and see the results of the poll.",
+    photo: Dishpoll,
+    code: "https://github.com/Sks-19/favdishes",
+  },
+  {
+    name: "Anime Info App",
+    link: "https://sks-19.github.io/animes/",
+    tech_used: "React, API and Axios",
+    desc: "This app will show list of animes with details. Users can search anime by their title, Filter anime according to genres. Users can create a watchlist by dragging any anime from anime list.",
+    photo: Animes,
+    code: "https://github.com/Sks-19/Animes",
+  },
   {
     name: "Admin Panel",
     link: "https://sks-19.github.io/Admin-Panel/",

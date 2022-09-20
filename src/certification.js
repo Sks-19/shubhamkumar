@@ -1,7 +1,31 @@
 import React from "react";
+import "./certification.css";
 
-const Certification = () => {
-  return <></>;
+const Certification = (props) => {
+  return (
+    <>
+      <div className="row certCard">
+        <div className="col-lg-6 col-md-12 col-sm-12 certContent">
+          <div className="detail">
+            <h2>
+              {props.name}
+              <br /> <span>{props.organization}</span>
+            </h2>
+            <p>Issued {props.issueDate}</p>
+            <p>Credential ID : {props.Id}</p>
+          </div>
+          <div>
+            <a href={props.link} type="button" className="btn btn-info btnLive">
+              Show credential
+            </a>
+          </div>
+        </div>
+        <div className="col-lg-6 col-md-12 col-sm-12 certImg">
+          <img src={props.image} alt="Evento.png" />
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Certification;

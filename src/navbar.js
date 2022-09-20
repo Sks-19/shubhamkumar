@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -22,28 +22,7 @@ function Navbar() {
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }
         >
-          <ul>
-            <li>
-              <NavLink
-                className="NavLink"
-                to="/shubhamkumarportfolio"
-                onClick={() => setShowMediaIcons(!showMediaIcons)}
-                style={{ color: "white" }}
-              >
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="NavLink"
-                to="/resume"
-                onClick={() => setShowMediaIcons(!showMediaIcons)}
-                style={{ color: "white" }}
-              >
-                Resume
-              </NavLink>
-            </li>
-            <li>
+          {/* <li>
               <NavLink
                 className="NavLink"
                 to="/work"
@@ -52,16 +31,68 @@ function Navbar() {
               >
                 Projects
               </NavLink>
+            </li> */}
+
+          <ul>
+            <li>
+              <Link
+                className="NavLink"
+                to="#profile"
+                onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
+              >
+                About
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
                 className="NavLink"
-                to="/contactme"
+                to="#resume"
+                onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
+              >
+                Resume
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="NavLink"
+                to="#skill"
+                onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
+              >
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="NavLink"
+                to="#work"
+                onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="NavLink"
+                to="#certification"
+                onClick={() => setShowMediaIcons(!showMediaIcons)}
+                style={{ color: "white" }}
+              >
+                Certifications
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="NavLink"
+                to="#contactme"
                 onClick={() => setShowMediaIcons(!showMediaIcons)}
                 style={{ color: "white" }}
               >
                 Contact Me
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>

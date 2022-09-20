@@ -11,7 +11,7 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <>
-      <div className="container-fluid Resume">
+      <div className="container-fluid Resume" id="resume">
         <h1>
           My <span style={{ fontWeight: "bold" }}>Resume</span>
         </h1>
@@ -44,23 +44,27 @@ const Resume = () => {
           );
         })}
 
-        <h4 style={{ fontWeight: "bold" }}>Education :</h4>
+        <div id="education">
+          <h4 style={{ fontWeight: "bold" }}>Education :</h4>
 
-        {EducationData.map((val) => {
-          return (
-            <Education
-              duration={val.duration}
-              universityName={val.universityName}
-              degree={val.Degree}
-              d1={val.d1}
-              d2={val.d2}
-            />
-          );
-        })}
+          {EducationData.map((val) => {
+            return (
+              <Education
+                duration={val.duration}
+                universityName={val.universityName}
+                degree={val.Degree}
+                d1={val.d1}
+                d2={val.d2}
+              />
+            );
+          })}
+        </div>
 
-        <h4 style={{ fontWeight: "bold", marginTop: "5%" }}>My Skills :</h4>
+        <div id="skill">
+          <h4 style={{ fontWeight: "bold", marginTop: "5%" }}>My Skills :</h4>
 
-        <Skill />
+          <Skill />
+        </div>
       </div>
     </>
   );

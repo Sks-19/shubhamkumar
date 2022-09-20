@@ -1,15 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import image from "./Images/Shubham.JPG";
 import "./card.css";
 
 function Card() {
   return (
     <>
-      <div className="container">
+      <div id="profile" className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-6 col-lg-6">
+          <div className="col-sm-12 col-md-6 col-lg-6 my-4">
             <div className="our-team">
               <div className="picture">
                 <img className="img-fluid" src={image} alt="Shubham Kumar" />
@@ -23,20 +23,20 @@ function Card() {
                   <span>W</span>EB <span>D</span>EVELOPER
                 </h4>
               </div>
-              <NavLink
-                to="/resume"
+              <Link
+                to="#resume"
                 type="button"
                 className="btn btn-primary resumeSubmit"
               >
                 RESUME
-              </NavLink>
-              <NavLink
-                to="/work"
+              </Link>
+              <Link
+                to="#work"
                 type="button"
                 className="btn btn-primary projectSubmit"
               >
                 PROJECTS
-              </NavLink>
+              </Link>
             </div>
           </div>
 

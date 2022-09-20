@@ -34,7 +34,7 @@ const ContactMe = () => {
   };
   return (
     <>
-      <section class="mb-4">
+      <section class="mb-4" id="contactme">
         <div className="container-fluid Contact">
           <div class="row contact">
             <div class="col-md-9 mb-md-0 mb-5">
