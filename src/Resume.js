@@ -11,7 +11,11 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <>
-      <div className="container-fluid Resume" id="resume">
+      <div
+        className="container-fluid Resume"
+        id="resume"
+        style={{ backgroundColor: "#0A1D1C" }}
+      >
         <h1>
           <span style={{ fontWeight: "bold" }}>Resume</span>
         </h1>
@@ -19,7 +23,7 @@ const Resume = () => {
           <div className="col col-7">
             <h4 style={{ fontWeight: "bold" }}>Experience :</h4>
           </div>
-          <div className="col col-5">
+          {/* <div className="col col-5">
             <a
               href="Shubham Kumar.pdf"
               download="shubham kumar.pdf"
@@ -28,7 +32,7 @@ const Resume = () => {
             >
               DOWNLOAD
             </a>
-          </div>
+          </div> */}
         </div>
 
         {ExperienceData.map((val) => {

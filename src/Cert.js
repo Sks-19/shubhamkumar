@@ -7,7 +7,11 @@ import "./Work.css";
 const Cert = () => {
   return (
     <>
-      <div className="container-fluid Project" id="certification">
+      <div
+        className="container-fluid Project"
+        id="certification"
+        style={{ backgroundColor: "#313715" }}
+      >
         <div className="Project_title">
           <h1>
             <span style={{ fontWeight: "bold" }}>Certifications</span>

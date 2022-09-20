@@ -7,7 +7,11 @@ import "./Work.css";
 const Work = () => {
   return (
     <>
-      <div className="container-fluid Project" id="work">
+      <div
+        className="container-fluid Project"
+        id="work"
+        style={{ backgroundColor: "#0D091E" }}
+      >
         <div className="Project_title">
           <h1>
             <span style={{ fontWeight: "bold" }}>Projects</span>
