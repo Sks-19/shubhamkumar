@@ -9,33 +9,14 @@ import Work from "./work";
 import ContactMe from "./Contact";
 import Cert from "./Cert";
 import Navbar from "./navbar";
-import { MdArrowCircleUp } from "react-icons/md";
+import Scroll from "./scrollUp";
 
 function App() {
-  let btn = document.getElementById("go-up");
-
-  window.onscroll = function () {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 90 ||
-      document.documentElement.scrollTop > 90
-    ) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
-  }
-
   return (
     <>
       <Navbar />
       <Card />
-      <a id="go-up" href="#">
-        <MdArrowCircleUp className="upBttn" />
-      </a>
+      <Scroll />
       <Resume />
       <Work />
       <Cert />

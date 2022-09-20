@@ -20,7 +20,7 @@ const Certification = (props) => {
               type="button"
               className="btn btn-info text-white btnLive"
             >
-              Show credential
+              Show Credential
             </a>
           </div>
         </div>

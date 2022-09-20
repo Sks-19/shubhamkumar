@@ -83,20 +83,7 @@ function Skill() {
           50%
         </div>
       </div>
-      <label className="label">Django</label>
-      <div class="progress progressBar">
-        <div
-          class="progress-bar progress-bar-striped"
-          role="progressbar"
-          style={{ width: "60%", backgroundColor: "#851d41" }}
-          aria-valuenow="100"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        >
-          60%
-        </div>
-      </div>
-      <label className="label">Express.js</label>
+      <label className="label">SASS</label>
       <div class="progress progressBar">
         <div
           class="progress-bar progress-bar-striped"
@@ -107,6 +94,19 @@ function Skill() {
           aria-valuemax="100"
         >
           50%
+        </div>
+      </div>
+      <label className="label">Redux</label>
+      <div class="progress progressBar">
+        <div
+          class="progress-bar progress-bar-striped"
+          role="progressbar"
+          style={{ width: "40%", backgroundColor: "#851d41" }}
+          aria-valuenow="100"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        >
+          40%
         </div>
       </div>
       <label className="label">RESTful API</label>
@@ -114,12 +114,12 @@ function Skill() {
         <div
           class="progress-bar progress-bar-striped"
           role="progressbar"
-          style={{ width: "50%", backgroundColor: "#851d41" }}
+          style={{ width: "40%", backgroundColor: "#851d41" }}
           aria-valuenow="100"
           aria-valuemin="0"
           aria-valuemax="100"
         >
-          50%
+          40%
         </div>
       </div>
     </>

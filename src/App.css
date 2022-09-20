@@ -8,27 +8,3 @@ body {
 }
 
 /*D2B48C*/
-
-a#go-up {
-  position: fixed;
-  display: none;
-  bottom: 1em;
-  right: 0em;
-  background-position: center;
-  z-index: 100;
-  -webkit-filter: opacity(0.4);
-  filter: opacity(0.4);
-  cursor: pointer;
-}
-a#go-up:hover {
-  -webkit-filter: opacity(1);
-  filter: opacity(1);
-}
-
-.upBttn {
-  font-size: 50px;
-}
-
-#go-up.show {
-  display: none;
-}

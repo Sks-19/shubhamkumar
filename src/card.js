@@ -40,7 +40,7 @@ function Card() {
             </div>
           </div>
 
-          <div className="col-sm-12 col-md-6 col-lg-6">
+          <div className="col-sm-12 col-md-6 col-lg-6 my-2">
             <div className="About">
               <h1 className="Hello">
                 About <span style={{ fontWeight: "bold" }}>Me</span>

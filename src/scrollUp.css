@@ -1,0 +1,25 @@
+.top-btn {
+  position: fixed;
+  display: block;
+  bottom: 1em;
+  right: 0em;
+  z-index: 99;
+  background-color: transparent;
+  border: none;
+  -webkit-filter: opacity(0.4);
+  filter: opacity(0.4);
+  cursor: pointer;
+}
+.top-btn:hover {
+  -webkit-filter: opacity(1);
+  filter: opacity(1);
+}
+
+.upBttn {
+  font-size: 50px;
+  color: red;
+}
+
+#go-up.show {
+  display: none;
+}
