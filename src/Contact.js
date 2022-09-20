@@ -108,7 +108,7 @@ const ContactMe = () => {
             <div class="col-md-3 text-center">
               <ul class="list-unstyled mb-0">
                 <h2 class="h1-responsive font-weight-bold text-center text-white my-4">
-                  My contact Details
+                  Contact Details
                 </h2>
                 <li>
                   <label style={{ color: "blue" }}>PHONE :</label>

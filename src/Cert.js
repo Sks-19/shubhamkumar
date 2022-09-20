@@ -10,7 +10,7 @@ const Cert = () => {
       <div className="container-fluid Project" id="certification">
         <div className="Project_title">
           <h1>
-            My <span style={{ fontWeight: "bold" }}>Certifications</span>
+            <span style={{ fontWeight: "bold" }}>Certifications</span>
           </h1>
         </div>
         <br />

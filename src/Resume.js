@@ -13,7 +13,7 @@ const Resume = () => {
     <>
       <div className="container-fluid Resume" id="resume">
         <h1>
-          My <span style={{ fontWeight: "bold" }}>Resume</span>
+          <span style={{ fontWeight: "bold" }}>Resume</span>
         </h1>
         <div className="row mx-1">
           <div className="col col-7">
@@ -61,7 +61,7 @@ const Resume = () => {
         </div>
 
         <div id="skill">
-          <h4 style={{ fontWeight: "bold", marginTop: "5%" }}>My Skills :</h4>
+          <h4 style={{ fontWeight: "bold", marginTop: "5%" }}>Skills :</h4>
 
           <Skill />
         </div>

@@ -10,7 +10,7 @@ const Work = () => {
       <div className="container-fluid Project" id="work">
         <div className="Project_title">
           <h1>
-            My <span style={{ fontWeight: "bold" }}>Projects</span>
+            <span style={{ fontWeight: "bold" }}>Projects</span>
           </h1>
         </div>
         <br />
