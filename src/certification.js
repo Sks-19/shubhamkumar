@@ -18,7 +18,7 @@ const Certification = (props) => {
             <a
               href={props.link}
               type="button"
-              className="btn btn-info text-white btnLive"
+              className="btn btn-info text-white btnShow"
             >
               Show Credential
             </a>

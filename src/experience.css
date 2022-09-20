@@ -32,6 +32,9 @@
   list-style-type: square;
 }
 
+::marker {
+  color: #fff;
+}
 .expContent h5 {
   color: white;
   font-size: 1em;

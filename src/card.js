@@ -53,7 +53,7 @@ function Card() {
                 applications, cross-browser platforms, and design constraints on
                 the web, and building responsive user interfaces.
               </p>
-              <div className="downloadCV">
+              {/* <div className="downloadCV">
                 <a
                   href="Shubham Kumar.pdf"
                   download="shubham kumar.pdf"
@@ -62,7 +62,7 @@ function Card() {
                 >
                   DOWNLOAD CV
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
