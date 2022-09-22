@@ -1,7 +1,7 @@
 .eduCard {
-  background: linear-gradient(to bottom right, #000033 40%, #00004d 70%);
+  background: linear-gradient(to bottom right, #018786 65%, #03dac6 90%);
   margin: 5%;
-  border-radius: 5px;
+  border-radius: 3%;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
 

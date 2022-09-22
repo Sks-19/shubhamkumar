@@ -34,7 +34,14 @@ const ContactMe = () => {
   };
   return (
     <>
-      <section class="mb-4" id="contactme">
+      <section
+        class="mb-4"
+        id="contactme"
+        style={{
+          background:
+            "linear-gradient(to top right, #1f1c3f 80%, #50e3c2 120%)",
+        }}
+      >
         <div className="container-fluid Contact">
           <div class="row contact">
             <div class="col-md-9 mb-md-0 mb-5">
@@ -95,7 +102,7 @@ const ContactMe = () => {
                 </div>
                 <div class="text-center text-md-left">
                   <input
-                    className="btn btn-primary button"
+                    className="btn btn-success button"
                     type="submit"
                     value="Send"
                   />
