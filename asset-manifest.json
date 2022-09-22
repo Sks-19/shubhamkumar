@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shubhamkumarportfolio/static/css/main.f6367de7.css",
-    "main.js": "/shubhamkumarportfolio/static/js/main.360fda78.js",
+    "main.css": "/shubhamkumarportfolio/static/css/main.abde3048.css",
+    "main.js": "/shubhamkumarportfolio/static/js/main.428601da.js",
     "static/media/HackerRank_Problem_Solving_Certificate.png": "/shubhamkumarportfolio/static/media/HackerRank_Problem_Solving_Certificate.5794df76e57ee7074599.png",
     "static/media/HackerRank_Python_Certificate.png": "/shubhamkumarportfolio/static/media/HackerRank_Python_Certificate.eaf3c02817df4d87ce4a.png",
     "static/media/HackerRank_React_Certificate.png": "/shubhamkumarportfolio/static/media/HackerRank_React_Certificate.8aca80177a077f43598b.png",
@@ -15,11 +15,11 @@
     "static/media/Admin_Panel.png": "/shubhamkumarportfolio/static/media/Admin_Panel.68235b80c9acf83aecf5.png",
     "static/media/SkillUp_JS_Certificate.png": "/shubhamkumarportfolio/static/media/SkillUp_JS_Certificate.00fd24e9108cc2b9cb07.png",
     "index.html": "/shubhamkumarportfolio/index.html",
-    "main.f6367de7.css.map": "/shubhamkumarportfolio/static/css/main.f6367de7.css.map",
-    "main.360fda78.js.map": "/shubhamkumarportfolio/static/js/main.360fda78.js.map"
+    "main.abde3048.css.map": "/shubhamkumarportfolio/static/css/main.abde3048.css.map",
+    "main.428601da.js.map": "/shubhamkumarportfolio/static/js/main.428601da.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6367de7.css",
-    "static/js/main.360fda78.js"
+    "static/css/main.abde3048.css",
+    "static/js/main.428601da.js"
   ]
 }
