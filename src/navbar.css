@@ -11,7 +11,7 @@ li {
 .main-nav {
   width: 100%;
   height: 4rem;
-  background-color: #000000;
+  background-color: #1f1c3f;
   display: grid;
   grid-template-columns: 10rem 1fr 1fr 3fr 5rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px,
@@ -117,7 +117,7 @@ li {
   }
 
   .mobile-menu-link {
-    background-image: radial-gradient(#000033, #00004d);
+    background-image: radial-gradient(#1f1c3f, #1f1c3f);
     height: 20rem;
     display: grid;
     grid-column: 2/5;

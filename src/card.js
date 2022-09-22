@@ -7,7 +7,14 @@ import "./card.css";
 function Card() {
   return (
     <>
-      <div id="profile" className="container">
+      <div
+        id="profile"
+        className="container"
+        style={{
+          background:
+            "linear-gradient(to top right, #1f1c3f 70%, #50e3c2 140%)",
+        }}
+      >
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 my-4">
             <div className="our-team">

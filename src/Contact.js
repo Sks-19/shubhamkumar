@@ -39,7 +39,7 @@ const ContactMe = () => {
         id="contactme"
         style={{
           background:
-            "linear-gradient(to top right, #1f1c3f 80%, #50e3c2 120%)",
+            "linear-gradient(to top right, #1f1c3f 70%, #50e3c2 140%)",
         }}
       >
         <div className="container-fluid Contact">

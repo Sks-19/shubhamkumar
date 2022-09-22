@@ -2,7 +2,7 @@
   background-color: #311d3f;
   background: linear-gradient(to bottom right, #018786 65%, #03dac6 90%);
   margin: 5%;
-  border-radius: 5%;
+  border-radius: 15px;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
 
