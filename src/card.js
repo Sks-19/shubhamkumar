@@ -9,10 +9,11 @@ function Card() {
     <>
       <div
         id="profile"
-        className="container"
+        className="container-fluid"
         style={{
+          //#011f44 85%, #1d6354 110%
           background:
-            "linear-gradient(to top right, #1f1c3f 70%, #50e3c2 140%)",
+            "linear-gradient(to top right, #011f44 70%, #1d6354 140%)",
         }}
       >
         <div className="row">
@@ -65,7 +66,7 @@ function Card() {
                   href="Shubham Kumar.pdf"
                   download="shubham kumar.pdf"
                   type="button"
-                  className="btn btn-primary submit"
+                  className="btn btn-success submit"
                 >
                   DOWNLOAD CV
                 </a>
