@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shubhamkumarportfolio/static/css/main.abde3048.css",
-    "main.js": "/shubhamkumarportfolio/static/js/main.428601da.js",
+    "main.css": "/shubhamkumarportfolio/static/css/main.8eb43e41.css",
+    "main.js": "/shubhamkumarportfolio/static/js/main.70298f85.js",
     "static/media/HackerRank_Problem_Solving_Certificate.png": "/shubhamkumarportfolio/static/media/HackerRank_Problem_Solving_Certificate.5794df76e57ee7074599.png",
     "static/media/HackerRank_Python_Certificate.png": "/shubhamkumarportfolio/static/media/HackerRank_Python_Certificate.eaf3c02817df4d87ce4a.png",
     "static/media/HackerRank_React_Certificate.png": "/shubhamkumarportfolio/static/media/HackerRank_React_Certificate.8aca80177a077f43598b.png",
@@ -9,17 +9,19 @@
     "static/media/Animes.png": "/shubhamkumarportfolio/static/media/Animes.7da74b987570ae203d07.png",
     "static/media/Weather_report.png": "/shubhamkumarportfolio/static/media/Weather_report.c24fd662463730eb17b0.png",
     "static/media/Evento.png": "/shubhamkumarportfolio/static/media/Evento.c69dacc5cf6a869bf108.png",
+    "static/media/Starwars.png": "/shubhamkumarportfolio/static/media/Starwars.d2e54bd588a0e0f33046.png",
     "static/media/Udemy_Web_Dev_Certificate.jpg": "/shubhamkumarportfolio/static/media/Udemy_Web_Dev_Certificate.ad726fff7365f5ba1f1b.jpg",
     "static/media/dish-poll.png": "/shubhamkumarportfolio/static/media/dish-poll.9481b1d1877220b83223.png",
     "static/media/dicegame.png": "/shubhamkumarportfolio/static/media/dicegame.8393176c1c239ba8c116.png",
+    "static/media/Discussionforum.png": "/shubhamkumarportfolio/static/media/Discussionforum.d65f085b48d22c89b3c1.png",
     "static/media/Admin_Panel.png": "/shubhamkumarportfolio/static/media/Admin_Panel.68235b80c9acf83aecf5.png",
     "static/media/SkillUp_JS_Certificate.png": "/shubhamkumarportfolio/static/media/SkillUp_JS_Certificate.00fd24e9108cc2b9cb07.png",
     "index.html": "/shubhamkumarportfolio/index.html",
-    "main.abde3048.css.map": "/shubhamkumarportfolio/static/css/main.abde3048.css.map",
-    "main.428601da.js.map": "/shubhamkumarportfolio/static/js/main.428601da.js.map"
+    "main.8eb43e41.css.map": "/shubhamkumarportfolio/static/css/main.8eb43e41.css.map",
+    "main.70298f85.js.map": "/shubhamkumarportfolio/static/js/main.70298f85.js.map"
   },
   "entrypoints": [
-    "static/css/main.abde3048.css",
-    "static/js/main.428601da.js"
+    "static/css/main.8eb43e41.css",
+    "static/js/main.70298f85.js"
   ]
 }
