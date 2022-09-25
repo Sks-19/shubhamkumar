@@ -10,7 +10,7 @@ const Work = () => {
       <div
         className="container-fluid Project"
         id="work"
-        style={{ backgroundColor: "#0D091E" }}
+        style={{ backgroundColor: "#1a252f" }}
       >
         <div className="Project_title">
           <h1>

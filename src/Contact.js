@@ -38,8 +38,7 @@ const ContactMe = () => {
         class="mb-4"
         id="contactme"
         style={{
-          background:
-            "linear-gradient(to top right, #1f1c3f 70%, #50e3c2 140%)",
+          background: "to top right, #1a3556 85%, #334b69 110%)",
         }}
       >
         <div className="container-fluid Contact">
@@ -118,12 +117,12 @@ const ContactMe = () => {
                   Contact Details
                 </h2>
                 <li>
-                  <label style={{ color: "blue" }}>PHONE :</label>
+                  <label style={{ color: "black" }}>PHONE :</label>
                   <p style={{ color: "white" }}>+91 9116 736 861</p>
                 </li>
 
                 <li>
-                  <label style={{ color: "blue" }}>EMAIL :</label>
+                  <label style={{ color: "black" }}>EMAIL :</label>
                   <p style={{ color: "white" }}>shubhamrms19@gmail.com</p>
                 </li>
               </ul>

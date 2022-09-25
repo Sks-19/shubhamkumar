@@ -14,7 +14,7 @@ const Resume = () => {
       <div
         className="container-fluid Resume"
         id="resume"
-        style={{ backgroundColor: "#0A1D1C" }}
+        style={{ backgroundColor: "#015454" }}
       >
         <h1>
           <span style={{ fontWeight: "bold" }}>Resume</span>

@@ -4,8 +4,18 @@ import Admin from "./Images/Admin_Panel.png";
 import Animes from "./Images/Animes.png";
 import Dishpoll from "./Images/dish-poll.png";
 import Dice from "./Images/dicegame.png";
+import Starwars from "./Images/Starwars.png";
+import Discussionforum from "./Images/Discussionforum.png";
 
 const ProjectData = [
+  {
+    name: "Discussion Forum",
+    link: "https://sks-19.github.io/discussionforum/",
+    tech_used: "React, JavaScript Redux, React-Router, API and Axios",
+    desc: "This is a small react app for discussion. Users can post on the discussion forum. Users can comments on and `like` the post. They may also `like` comments.",
+    photo: Discussionforum,
+    code: "https://github.com/Sks-19/discussionforum/",
+  },
   {
     name: "Dish Poll",
     link: "https://sks-19.github.io/favdishes/",
@@ -13,6 +23,14 @@ const ProjectData = [
     desc: "This is a small react app for ranking dishes. Multiple users can login into the app and vote for their favourite dishes and see the results of the poll.",
     photo: Dishpoll,
     code: "https://github.com/Sks-19/favdishes",
+  },
+  {
+    name: "Starwar Characters Info App",
+    link: "https://sks-19.github.io/starwars/",
+    tech_used: "React, Redux, React-Router, Pagination, API and Axios",
+    desc: "This is a small react app for showing the list of all starwar characters. Users can be able to mark certain characters as favorites.",
+    photo: Starwars,
+    code: "https://github.com/Sks-19/starwars/",
   },
   {
     name: "Anime Info App",

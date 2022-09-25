@@ -24,7 +24,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "60%", backgroundColor: "#018786" }}
+            style={{ width: "60%", backgroundColor: "#02d3d1" }}
             aria-valuenow="10"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -40,7 +40,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "70%", backgroundColor: "#018786" }}
+            style={{ width: "70%", backgroundColor: "#02d3d1" }}
             aria-valuenow="25"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -56,7 +56,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "70%", backgroundColor: "#018786" }}
+            style={{ width: "70%", backgroundColor: "#02d3d1" }}
             aria-valuenow="50"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -72,7 +72,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "80%", backgroundColor: "#018786" }}
+            style={{ width: "80%", backgroundColor: "#02d3d1" }}
             aria-valuenow="75"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -88,7 +88,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "80%", backgroundColor: "#018786" }}
+            style={{ width: "80%", backgroundColor: "#02d3d1" }}
             aria-valuenow="75"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -104,7 +104,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "70%", backgroundColor: "#018786" }}
+            style={{ width: "70%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -120,7 +120,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "50%", backgroundColor: "#018786" }}
+            style={{ width: "50%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -136,7 +136,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "50%", backgroundColor: "#018786" }}
+            style={{ width: "50%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -152,7 +152,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "40%", backgroundColor: "#018786" }}
+            style={{ width: "40%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -168,7 +168,7 @@ function Skill() {
           <div
             class="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "40%", backgroundColor: "#018786" }}
+            style={{ width: "40%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
