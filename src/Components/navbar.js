@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
 import { GiHamburgerMenu } from "react-icons/gi";
-import "./navbar.css";
+import "../Styles/navbar.scss";
 
 function Navbar() {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -23,17 +21,6 @@ function Navbar() {
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }
         >
-          {/* <li>
-              <NavLink
-                className="NavLink"
-                to="/work"
-                onClick={() => setShowMediaIcons(!showMediaIcons)}
-                style={{ color: "white" }}
-              >
-                Projects
-              </NavLink>
-            </li> */}
-
           <ul>
             <li>
               <Link

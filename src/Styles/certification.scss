@@ -1,0 +1,6 @@
+@import "./experience.scss/";
+$backgroundColor: linear-gradient(to bottom right, #41491c 60%, #626e2a 90%);
+
+.certCard {
+  @include Card($backgroundColor);
+}

@@ -1,0 +1,10 @@
+@import "./experience.scss/";
+$backgroundColor: linear-gradient(to bottom right, #233240 40%, #34495e 70%);
+
+.projectCard {
+  @include Card($backgroundColor);
+}
+
+.projectContent {
+  @include cardContent;
+}

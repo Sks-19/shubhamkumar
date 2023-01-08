@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import { MdArrowCircleUp } from "react-icons/md";
-import "./scrollUp.css";
+import "../Styles/scrollUp.css";
 
 const Scroll = () => {
   const [isVisible, setIsVisible] = useState();

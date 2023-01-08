@@ -1,6 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
-import "./skills.css";
+import "../Styles/skills.scss";
 import {
   FaReact,
   FaPython,
@@ -10,7 +8,6 @@ import {
 } from "react-icons/fa";
 import { DiJavascript, DiCss3 } from "react-icons/di";
 import { SiTypescript, SiRedux } from "react-icons/si";
-import { AiFillApi } from "react-icons/ai";
 
 function Skill() {
   return (
@@ -20,28 +17,12 @@ function Skill() {
           <FaReact className="mx-1" />
           React.js
         </label>
-        <div class="progress progressBar">
+        <div className="progress progressBar">
           <div
-            class="progress-bar progress-bar-striped"
-            role="progressbar"
-            style={{ width: "60%", backgroundColor: "#02d3d1" }}
-            aria-valuenow="10"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            60%
-          </div>
-        </div>
-        <label className="label">
-          <DiJavascript className="mx-1" />
-          JavaScript
-        </label>
-        <div class="progress progressBar">
-          <div
-            class="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped"
             role="progressbar"
             style={{ width: "70%", backgroundColor: "#02d3d1" }}
-            aria-valuenow="25"
+            aria-valuenow="10"
             aria-valuemin="0"
             aria-valuemax="100"
           >
@@ -49,12 +30,28 @@ function Skill() {
           </div>
         </div>
         <label className="label">
+          <DiJavascript className="mx-1" />
+          JavaScript
+        </label>
+        <div className="progress progressBar">
+          <div
+            className="progress-bar progress-bar-striped"
+            role="progressbar"
+            style={{ width: "80%", backgroundColor: "#02d3d1" }}
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            80%
+          </div>
+        </div>
+        <label className="label">
           <FaPython className="mx-1" />
           Python
         </label>
-        <div class="progress progressBar">
+        <div className="progress progressBar">
           <div
-            class="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped"
             role="progressbar"
             style={{ width: "70%", backgroundColor: "#02d3d1" }}
             aria-valuenow="50"
@@ -68,9 +65,9 @@ function Skill() {
           <FaHtml5 className="mx-1" />
           HTML5
         </label>
-        <div class="progress progressBar">
+        <div className="progress progressBar">
           <div
-            class="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped"
             role="progressbar"
             style={{ width: "80%", backgroundColor: "#02d3d1" }}
             aria-valuenow="75"
@@ -84,9 +81,9 @@ function Skill() {
           <DiCss3 className="mx-1" />
           CSS
         </label>
-        <div class="progress progressBar">
+        <div className="progress progressBar">
           <div
-            class="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped"
             role="progressbar"
             style={{ width: "80%", backgroundColor: "#02d3d1" }}
             aria-valuenow="75"
@@ -100,25 +97,25 @@ function Skill() {
           <FaBootstrap className="mx-1" />
           Bootstrap
         </label>
-        <div class="progress progressBar">
+        <div className="progress progressBar">
           <div
-            class="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "70%", backgroundColor: "#02d3d1" }}
+            style={{ width: "80%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            70%
+            80%
           </div>
         </div>
         <label className="label">
           <SiTypescript className="mx-1" />
           TypeScript
         </label>
-        <div class="progress progressBar">
+        <div className="progress progressBar">
           <div
-            class="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped"
             role="progressbar"
             style={{ width: "50%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
@@ -132,9 +129,9 @@ function Skill() {
           <FaSass className="mx-1" />
           SASS
         </label>
-        <div class="progress progressBar">
+        <div className="progress progressBar">
           <div
-            class="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped"
             role="progressbar"
             style={{ width: "50%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
@@ -148,32 +145,16 @@ function Skill() {
           <SiRedux className="mx-1" />
           Redux
         </label>
-        <div class="progress progressBar">
+        <div className="progress progressBarLast">
           <div
-            class="progress-bar progress-bar-striped"
+            className="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "40%", backgroundColor: "#02d3d1" }}
+            style={{ width: "50%", backgroundColor: "#02d3d1" }}
             aria-valuenow="100"
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            40%
-          </div>
-        </div>
-        <label className="label">
-          <AiFillApi className="mx-1" />
-          RESTful API
-        </label>
-        <div class="progress progressBarLast">
-          <div
-            class="progress-bar progress-bar-striped"
-            role="progressbar"
-            style={{ width: "40%", backgroundColor: "#02d3d1" }}
-            aria-valuenow="100"
-            aria-valuemin="0"
-            aria-valuemax="100"
-          >
-            40%
+            50%
           </div>
         </div>
       </div>

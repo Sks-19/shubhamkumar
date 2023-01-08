@@ -1,13 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React, { lazy, Suspense } from "react";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
-import './index.css';
-import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "antd/dist/antd.dark.css";
+import "antd/dist/antd.dark.min.css";
+import Loader from "./Components/Loader";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const App = lazy(() => import("./App"));
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Router>
-    <App />
+    <Suspense fallback={<Loader />}>
+      <App />
+    </Suspense>
   </Router>
-
 );

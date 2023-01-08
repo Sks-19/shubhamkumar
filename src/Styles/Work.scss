@@ -1,0 +1,19 @@
+@import "./Resume.scss";
+$boxHeight: 100%;
+$boxWidth: 100%;
+$disColor: #fff;
+$textAlign: center;
+$pad: 5%;
+$marginLeft: 5%;
+
+.Project {
+  @include Box($boxHeight, $boxWidth);
+}
+
+.Project_title {
+  @include Box-h1($textAlign, $pad, $disColor);
+}
+
+.Project h1 {
+  @include Box-h4($marginLeft, $disColor);
+}

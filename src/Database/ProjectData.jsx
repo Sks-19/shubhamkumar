@@ -1,17 +1,35 @@
-import Weather from "./Images/Weather_report.png";
-import Evento from "./Images/Evento.png";
-import Admin from "./Images/Admin_Panel.png";
-import Animes from "./Images/Animes.png";
-import Dishpoll from "./Images/dish-poll.png";
-import Dice from "./Images/dicegame.png";
-import Starwars from "./Images/Starwars.png";
-import Discussionforum from "./Images/Discussionforum.png";
-
+import Weather from "../Images/Weather_report.png";
+import Admin from "../Images/Admin_Panel.png";
+import Animes from "../Images/Animes.png";
+import Dishpoll from "../Images/dish-poll.png";
+import Dice from "../Images/dicegame.png";
+import Starwars from "../Images/Starwars.png";
+import SkTee from "../Images/SKtee.png";
+import Discussionforum from "../Images/Discussionforum.png";
+import MovieTicket from "../Images/Movie_ticket.png";
 const ProjectData = [
+  {
+    name: "Ticket Booking App",
+    link: "https://bookmymovieticket.netlify.app/",
+    tech_used:
+      "React, JavaScript, Redux, Redux Toolkit, React-Router, API, MUI, Ant Design, and Axios",
+    desc: "This is a clone online movie ticket booking app where users can book tickets for the showing movie on particular date and time. ",
+    photo: MovieTicket,
+    code: "https://github.com/Sks-19/book-movie-ticket",
+  },
+  {
+    name: "Online Shopping App",
+    link: "https://sk-tee-shopping.netlify.app/",
+    tech_used:
+      "React, JavaScript, Redux, Redux Toolkit, React-Router, API and Axios",
+    desc: "This is an online t-shirts shopping app where customers can browse through the catalog of t-shirts, can add t-shirts to the shopping cart and checkout the items in the cart. ",
+    photo: SkTee,
+    code: "https://github.com/Sks-19/Tee-Shopping-App",
+  },
   {
     name: "Discussion Forum",
     link: "https://sks-19.github.io/discussionforum/",
-    tech_used: "React, JavaScript Redux, React-Router, API and Axios",
+    tech_used: "React, JavaScript, Redux, React-Router, API and Axios",
     desc: "This is a small react app for discussion. Users can post on the discussion forum. Users can comments on and `like` the post. They may also `like` comments.",
     photo: Discussionforum,
     code: "https://github.com/Sks-19/discussionforum/",
@@ -60,17 +78,9 @@ const ProjectData = [
     name: "Dice Game",
     link: "https://sks-19.github.io/piggame/",
     tech_used: "JavaScript(DOM), HTML & CSS",
-    desc: "Developed a Dice Game using DOM, HTML5, CSS.",
+    desc: "This is a simple dice game.",
     photo: Dice,
     code: "https://github.com/Sks-19/piggame",
-  },
-  {
-    name: "Evento",
-    link: "#",
-    tech_used: "React, Django",
-    desc: "Developed a Full-Stack web application EVENTO (Event Information System) using Django Framework, HTML5, CSS. This project is helpful for each company to reach out more audience for their events. It helps small events to get more and more visitorsand let people know about the events.",
-    photo: Evento,
-    code: "#",
   },
 ];
 

@@ -1,18 +1,16 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
 import Experience from "./experience";
-import ExperienceData from "./experience_data";
+import ExperienceData from "../Database/experience_data";
 import Education from "./Education";
-import EducationData from "./Education_Data";
+import EducationData from "../Database/Education_Data";
 import Skill from "./skill";
-import "./Resume.css";
+import "../Styles/Resume.scss";
 
 const Resume = () => {
   return (
     <>
       <div
-        className="container-fluid Resume"
+        className="section container-fluid Resume"
         id="resume"
         style={{ backgroundColor: "#015454" }}
       >
@@ -38,6 +36,7 @@ const Resume = () => {
         {ExperienceData.map((val) => {
           return (
             <Experience
+              key={val.id}
               duration={val.duration}
               position={val.position}
               company={val.company}
@@ -48,12 +47,13 @@ const Resume = () => {
           );
         })}
 
-        <div id="education">
+        <div className="section" id="education">
           <h4 style={{ fontWeight: "bold" }}>Education :</h4>
 
           {EducationData.map((val) => {
             return (
               <Education
+                key={val.id}
                 duration={val.duration}
                 universityName={val.universityName}
                 degree={val.Degree}
@@ -64,7 +64,7 @@ const Resume = () => {
           })}
         </div>
 
-        <div id="skill">
+        <div className="section" id="skill">
           <h4 style={{ fontWeight: "bold", marginTop: "5%" }}>Skills :</h4>
 
           <Skill />

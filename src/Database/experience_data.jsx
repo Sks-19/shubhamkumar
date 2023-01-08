@@ -1,22 +1,20 @@
 const ExperienceData = [
   {
-    duration: "Jan, 2022 - Present",
-    position: "Assistant System Engineer",
-    company: "Tata Consultancy Services",
-    exp1: "Working with Teradata & Snowflake platforms and responsible for RCA & Data Patches.",
-    exp2: "Contributed to Interactive Dashboards development to reduce repetitive and manual efforts by 30 %.",
-    exp3: "Contributing to the team for analyzing issues and proposing solutions to clients.",
-  },
-  {
-    duration: "Jan, 2021 - Dec, 2022",
+    duration: "Jan, 2021 - Present",
     position: "Frontend Engineer",
     company: "Tata Consultancy Services",
-    exp1: "Supported existing customer by updating website content, refining code,and resolving problems to their satisfaction.",
+    exp1: "Contributing to UI Improvement of the company website to increase productivity and high page view.",
     exp2: "Researched, investigated, and fixed UI and functionality bugs to improve overall performance by 25%.",
     exp3: "Monitored and improved frontend performance by 15% and documented application changes & worked on updates",
+
+    // Contributing to UI Improvement of the company website to increase productivity and high page view.
+    // Workingclosely with UI/UX designersand bridgingthe gap between graphical design and technical implementation.
+    // Researched, investigated, and fixed UIand functionality bugsto improve overall performance by 25%.
+    // Followed documentation to remain up-to-dateon what needs to be updated in response to new release versions.
+    // Troubleshoot company’s webapplicationsfor continuous improvement, smooth execution, and stable online presence
   },
   {
-    duration: "May, 2020 - Nov, 2020",
+    duration: "May, 2020 - , Oct, 2020",
     position: "Frontend Developer",
     company: "Digital1x1",
     exp1: "Designed and developed 5+ web applications with React.js and JavaScript, including optimized web pages, resulting in 25% increase in user clicks.",

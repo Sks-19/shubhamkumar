@@ -1,31 +1,37 @@
+$card-width: 100;
+$card-height: 100%;
+$bg-color: radial-gradient(#1a3556, #334b69);
+$text-center: center;
+
 .our-team {
   padding: 2% 0% 4% 0%;
-  margin: 5% 5% 0% 5%;
-  width: 90%;
-  text-align: center;
+  margin: 5% 0% 0% 0%;
+  text-align: $text-center;
   overflow: hidden;
   position: relative;
-  background-image: linear-gradient(to top right, #1a3556 85%, #334b69 110%);
-  border-radius: 15px;
+  background: linear-gradient(to top right, #011f44 70%, #1d6354 140%);
+  border-radius: 5px;
   box-shadow: 1px 3px 15px radial-gradient(#202020, #282828);
 }
 
 .our-team .picture {
   display: inline-block;
-  height: 230px;
-  width: 230px;
-  margin-bottom: 10%;
-  margin-top: 3%;
+  height: 250px;
+  width: 250px;
+  margin: {
+    bottom: 10%;
+    top: 3%;
+  }
   z-index: 1;
   position: relative;
 }
 
 .our-team .picture::before {
   content: "";
-  width: 100%;
+  width: $card-width;
   height: 0;
   border-radius: 50%;
-  background-image: radial-gradient(#1a3556, #334b69);
+  background-image: $bg-color;
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -36,15 +42,15 @@
 }
 
 .our-team:hover .picture::before {
-  height: 100%;
+  height: $card-height;
 }
 
 .our-team .picture::after {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: $card-width;
+  height: $card-height;
   border-radius: 50%;
-  background-image: radial-gradient(#1a3556, #334b69);
+  background-image: $bg-color;
   position: absolute;
   top: 0;
   left: 0;
@@ -52,7 +58,7 @@
 }
 
 .our-team .picture img {
-  width: 100%;
+  width: $card-height;
   height: auto;
   border-radius: 50%;
   transform: scale(1);
@@ -66,8 +72,10 @@
 
 .our-team .name {
   margin-left: 0%;
-  font-size: 1.7rem;
-  font-weight: 600;
+  font: {
+    size: 2rem;
+    weight: 600;
+  }
   text-transform: uppercase;
   background: -webkit-linear-gradient(#ffffff, #ffffff);
   -webkit-background-clip: text;
@@ -75,7 +83,7 @@
 }
 
 .our-team .name span {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
 }
 
 .our-team .title {
@@ -93,7 +101,7 @@ Hr {
   color: brown;
   width: 45%;
   border-width: 2px;
-  text-align: center;
+  text-align: $text-center;
   margin-left: 27%;
 }
 
@@ -108,7 +116,7 @@ Hr {
   color: #ffffff;
   font-size: 3rem;
   line-height: 1;
-  text-align: center;
+  text-align: $text-center;
 }
 
 .About h5 {
@@ -117,46 +125,12 @@ Hr {
 
 .About p {
   color: #fff;
-  text-align: center;
-}
-
-.submit {
-  background-color: transparent;
-  color: #fff;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-radius: 25px;
-  padding: 2%;
-  margin: 0% 0% 10% 0%;
-}
-
-.projectSubmit {
-  background-color: transparent;
-  align-items: center;
-  color: #fff;
-  justify-content: center;
-  text-align: center;
-  border-radius: 25px;
-  padding: 2%;
-  width: 35%;
-  margin: 5% 0% 5% 5%;
-}
-
-.resumeSubmit {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-  border-radius: 25px;
-  padding: 2%;
-  width: 35%;
-  margin: 5% 5% 5% 0%;
+  text-align: $text-center;
 }
 
 .downloadCV {
-  text-align: center;
-  align-items: center;
+  text-align: $text-center;
+  align-items: $text-center;
 }
 
 .downloadCV a {

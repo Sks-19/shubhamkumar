@@ -1,9 +1,19 @@
-import React from "./Images/HackerRank_React_Certificate.png";
-import ProblemSolving from "./Images/HackerRank_Problem_Solving_Certificate.png";
-import Python from "./Images/HackerRank_Python_Certificate.png";
-import J_S from "./Images/SkillUp_JS_Certificate.png";
-import WebDev from "./Images/Udemy_Web_Dev_Certificate.jpg";
+import React from "../Images/HackerRank_React_Certificate.png";
+import ProblemSolving from "../Images/HackerRank_Problem_Solving_Certificate.png";
+import Python from "../Images/HackerRank_Python_Certificate.png";
+import J_S from "../Images/SkillUp_JS_Certificate.png";
+import WebDev from "../Images/Udemy_Web_Dev_Certificate.jpg";
+import FreeCodeCamp_JS from "../Images/freeCodeCamp_Js.png";
+
 const CertData = [
+  {
+    name: "JavaScript Algorithms and Data Structures",
+    link: "https://www.freecodecamp.org/certification/Shubham_Kumar_45/javascript-algorithms-and-data-structures",
+    organization: "freeCodeCamp",
+    issueDate: "Dec 2022 . No Expiration",
+    Id: "NA",
+    image: FreeCodeCamp_JS,
+  },
   {
     name: "JavaScript",
     link: "https://simpli.app.link/1o28toCattb",

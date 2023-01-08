@@ -1,14 +1,13 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Certification from "./certification";
-import CertData from "./CertData";
-import "./Work.css";
+import CertData from "../Database/CertData";
+import "../Styles/Work.scss";
 
 const Cert = () => {
   return (
     <>
       <div
-        className="container-fluid Project"
+        className="section container-fluid Project"
         id="certification"
         style={{ backgroundColor: "#313715" }}
       >

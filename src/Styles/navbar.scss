@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+$height: 4rem;
 
 .NavLink {
   text-decoration: none;
@@ -10,7 +11,7 @@ li {
 
 .main-nav {
   width: 100%;
-  height: 4rem;
+  height: $height;
   background-color: #011f44;
   display: grid;
   grid-template-columns: 10rem 1fr 1fr 3fr 5rem;
@@ -20,7 +21,7 @@ li {
 
 .logo {
   display: grid;
-  height: 4rem;
+  height: $height;
   grid-column: 2/3;
   justify-content: flex-start;
   align-items: center;
@@ -31,21 +32,23 @@ li {
 }
 
 .menu-link ul {
-  height: 4rem;
+  height: $height;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .social-media {
-  grid-column: 4/5;
+  @extend .menu-link;
 }
 /* ----------- Grid part ends ----------------- */
 
 .logo h3 {
   margin-left: 0%;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font: {
+    size: 1.5rem;
+    weight: 600;
+  }
   text-transform: uppercase;
   background: -webkit-linear-gradient(#eee, rgb(219, 218, 235));
   -webkit-background-clip: text;
@@ -83,7 +86,7 @@ li {
 /* responsive css style  */
 @media (max-width: 1080px) {
   .main-nav {
-    height: 4rem;
+    height: $height;
     grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
   }
 
@@ -97,7 +100,7 @@ li {
 /* responsive css style  */
 @media (max-width: 998px) {
   .main-nav {
-    height: 4rem;
+    height: $height;
     grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
   }
 
@@ -107,7 +110,7 @@ li {
 
   .logo,
   .social-media ul {
-    height: 4rem;
+    height: $height;
   }
 
   .mobile-menu-link {
@@ -169,17 +172,17 @@ li {
 
 @media (max-width: 798px) {
   .main-nav {
-    height: 4rem;
+    height: $height;
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
   }
 
   .logo,
   .social-media ul {
-    height: 4rem;
+    height: $height;
   }
 
   .social-media {
-    height: 4rem;
+    height: $height;
     display: flex;
     justify-self: end;
     align-items: center;
@@ -193,13 +196,13 @@ li {
 
 @media (max-width: 520px) {
   .main-nav {
-    height: 4rem;
+    height: $height;
     grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
   }
 
   .logo,
   .social-media ul {
-    height: 4rem;
+    height: $height;
   }
 
   .logo h2 {

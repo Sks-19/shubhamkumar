@@ -1,0 +1,60 @@
+$backgroundColor: linear-gradient(to bottom right, #018786 65%, #01bab8 90%);
+
+@mixin Card {
+  background-color: #311d3f;
+  background: linear-gradient(to bottom right, #018786 65%, #01bab8 90%);
+  margin: 5%;
+  border-radius: 5px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+@mixin cardContent {
+  position: relative;
+  padding: 5%;
+  justify-content: left;
+}
+
+@mixin cardContentParagraph {
+  color: chartreuse;
+}
+
+@mixin cardContentH2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+@mixin cardContent-h2-span {
+  font-size: 0.7em;
+  color: #000;
+  font-weight: bold;
+}
+
+@mixin cardContent-h5 {
+  color: white;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.expCard {
+  @include Card;
+}
+.expContent {
+  @include cardContent;
+}
+
+.expContent p {
+  @include cardContentParagraph;
+}
+
+.expContent h2 {
+  @include cardContentH2;
+}
+
+.expContent h2 span {
+  @include cardContent-h2-span;
+}
+
+.expContent h5 {
+  @include cardContent-h5;
+}

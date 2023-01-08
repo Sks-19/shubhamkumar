@@ -1,0 +1,25 @@
+@import "./experience.scss/";
+
+.eduCard {
+  @include Card;
+}
+
+.eduContent {
+  @include cardContent;
+}
+
+.eduContent p {
+  @include cardContentParagraph;
+}
+
+.eduContent h2 {
+  @include cardContentH2;
+}
+
+.eduContent h2 span {
+  @include cardContent-h2-span;
+}
+
+.eduContent h5 {
+  @include cardContent-h5;
+}

@@ -1,14 +1,14 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 import Project from "./project";
-import ProjectData from "./ProjectData";
-import "./Work.css";
+import ProjectData from "../Database/ProjectData";
+import "../Styles/Work.scss";
 
 const Work = () => {
   return (
     <>
       <div
-        className="container-fluid Project"
+        className="section container-fluid Project"
         id="work"
         style={{ backgroundColor: "#1a252f" }}
       >

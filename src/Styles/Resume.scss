@@ -1,0 +1,34 @@
+$boxHeight: 100%;
+$boxWidth: 100%;
+$disColor: #fff;
+$textAlign: center;
+$pad: 5%;
+$marginLeft: 5%;
+
+@mixin Box($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin Box-h1($textAlign, $pad, $disColor) {
+  text-align: $textAlign;
+  padding: $pad;
+  color: $disColor;
+}
+
+@mixin Box-h4($marginLeft, $disColor) {
+  margin-left: $marginLeft;
+  color: $disColor;
+}
+
+.Resume {
+  @include Box($boxHeight, $boxWidth);
+}
+
+.Resume h1 {
+  @include Box-h1($textAlign, $pad, $disColor);
+}
+
+.Resume h4 {
+  @include Box-h4($marginLeft, $disColor);
+}

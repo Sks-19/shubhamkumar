@@ -1,30 +1,29 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
-import "./experience.css";
+import { Card, Timeline } from "antd";
+import "../Styles/experience.scss";
 
 function Experience(props) {
   return (
     <>
-      <div className="row expCard">
+      <Card key={props.key} hoverable bordered={false} className="expCard">
         <div className="expContent">
           <p>{props.duration}</p>
           <h2>
             {props.position}
             <br /> <span>{props.company}</span>
           </h2>
-          <ul className="a">
-            <li>
+          <Timeline>
+            <Timeline.Item>
               <h5>{props.exp1}</h5>
-            </li>
-            <li>
+            </Timeline.Item>
+            <Timeline.Item>
               <h5>{props.exp2}</h5>
-            </li>
-            <li>
+            </Timeline.Item>
+            <Timeline.Item>
               <h5>{props.exp3}</h5>
-            </li>
-          </ul>
+            </Timeline.Item>
+          </Timeline>
         </div>
-      </div>
+      </Card>
     </>
   );
 }
